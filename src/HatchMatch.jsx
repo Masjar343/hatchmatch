@@ -22,6 +22,7 @@ const DB = [
       {name:'Sparkle Dun (Olive)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Olive body for classic spring/fall BWOs. Trim wing to match local insects. Shuck trailing in the film seals the deal.',photo:'https://norrik.com/wp-content/uploads/2024/07/sparkle-dun-small.jpg'},
       {name:'Sparkle Dun (Gray/Dark)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray or near-black body for winter BWOs and dark-colored Baetis. On overcast winter days, the darker version often outfishes olive. Always check the naturals.',photo:'https://norrik.com/wp-content/uploads/2024/07/blue-winged-olive-dry-fly-pattern-small.jpg'},
       {name:'Parachute Adams',style:'Dry',sizes:'14–22',hook:'Dry fly',confidence:'High',weight:'None',tip:"The world's most versatile dry fly. Works during BWO, caddis, and midge hatches. Never leave home without it.",photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-adams-small.jpg'},
+      {name:'Blue Dun',style:'Dry',sizes:'16–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'One of the oldest trout flies in existence. Blue/gray dun hackle perfectly matches the slate-gray wings of the Baetis dun. Deadly on eastern limestone streams and tailwaters where trout have seen every modern pattern. Fish dead drift on a fine tippet.',photo:'https://norrik.com/wp-content/uploads/2024/07/blue-quill-dry-fly-small.jpg'},
       {name:'Copper John',style:'Nymph',sizes:'14–20',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:'Heavy wire body sinks fast. Deadly attractor nymph for both stonefly and mayfly imitation. Fish on the point in a two-fly rig.',photo:'https://norrik.com/wp-content/uploads/2024/07/copper-johns-nymph-small.jpg'},
       {name:'Rusty Spinner',style:'Spinner',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish flat in the film at dusk.',photo:'https://norrik.com/wp-content/uploads/2024/07/rusty-spinner-small.jpg'}
     ]
@@ -143,7 +144,7 @@ const DB = [
     description:'Caddisflies are the most abundant aquatic insects in most trout streams worldwide. Color is the key to matching them: spring "Mother\'s Day" caddis (Brachycentrus) are bright green-bodied; summer Hydropsyche are tan/amber; fall brings the enormous orange October Caddis. Unlike mayflies, adults skitter and flutter — trout slash aggressively.',
     stages:[
       {name:'Larva',fly:'Frenchie / Green Caddis Larva',sizes:'12–16',colors:['Bright green (spring)','Tan/brown (summer)'],waterLevel:'🪨 Bottom — tumbling along riverbed',desc:'Color varies by species and season. Spring Mother\'s Day larvae are bright green. Summer and fall caddis run tan to brown. Match the season.'},
-      {name:'Pupa',fly:'LaFontaine Sparkle Pupa',sizes:'12–16',colors:['Green (spring)','Amber/brown (summer)','Orange (fall)'],waterLevel:'💧 Mid-column to film — rising fast to surface',desc:'Most critical stage. Match color to season: green in spring, amber in summer, orange in fall. Pupa rises rapidly — trout hit it hard just below the film.'},
+      {name:'Pupa',fly:'LaFontaine Sparkle Pupa (Green)',sizes:'12–16',colors:['Green (spring)','Amber/brown (summer)','Orange (fall)'],waterLevel:'💧 Mid-column to film — rising fast to surface',desc:'Most critical stage. Match color to season: green in spring, amber in summer, orange in fall. Pupa rises rapidly — trout hit it hard just below the film.'},
       {name:'Adult',fly:'Elk Hair Caddis / X-Caddis',sizes:'12–18',colors:['Olive/tan (spring)','Tan/brown (summer)'],waterLevel:'🏄 Top water — skating and skittering on surface',desc:'Tent-shaped wing on surface. Skitter to imitate egg-laying. Color variations: olive-green in spring, tan in summer, orange-brown in fall.'}
     ],
     topFlies:[
@@ -166,7 +167,7 @@ const DB = [
     description:'The October Caddis (Giant Orange Sedge) is the last major hatch of the western season — and one of the most exciting. At up to 1.25 inches long, these burnt-orange insects are too big for trout to ignore. Gary LaFontaine called them one of only three hatches capable of reliably bringing the largest trout to the surface. Eastern anglers have their own version: the Great Autumn Brown Sedge (Pycnopsyche), same behavior, more brown-toned.',
     stages:[
       {name:'Larva',fly:'Cased Caddis / Deep Caddis Larva',sizes:'6–10',colors:['Burnt orange','Dark brown'],waterLevel:'🪨 Bottom — case dragging along the riverbed',desc:'October caddis are case-builders. They drag their rock/stick cases along cobble. Fish begin eating them as larvae drift during warmest daylight hours all summer.'},
-      {name:'Pupa',fly:'October Caddis Pupa (Burnt Orange)',sizes:'6–10',colors:['Burnt orange body','Black head','Ginger hackle'],waterLevel:'💧 Mid-column — swung or dead drifted',desc:'Pupae emerge mid-stream or on rocks. Burnt orange body, black bead head. Swing across and down or dead drift. This is the most productive subsurface stage.'},
+      {name:'Pupa',fly:'October Caddis Pupa',sizes:'6–10',colors:['Burnt orange body','Black head','Ginger hackle'],waterLevel:'💧 Mid-column — swung or dead drifted',desc:'Pupae emerge mid-stream or on rocks. Burnt orange body, black bead head. Swing across and down or dead drift. This is the most productive subsurface stage.'},
       {name:'Adult',fly:'Orange EHC / Orange Stimulator',sizes:'8–12',colors:['Burnt orange','Dark grayish-brown wing'],waterLevel:'🏄 Top water — skated and twitched',desc:'Large adults skitter, flutter, and dive-bomb to lay eggs. Animate the fly — twitch, skate, swing. Skating triggers explosive strikes. Evening is peak time.'}
     ],
     topFlies:[
@@ -283,7 +284,7 @@ const DB = [
     waterType:'All water types — rivers, lakes, tailwaters',
     description:"The Woolly Bugger is arguably the most versatile and widely used fly ever tied. It imitates leeches, crayfish, baitfish, large nymphs, and virtually anything alive in the water. It catches trout, bass, pike, panfish, and saltwater species. Every fly box in the world should have at least three.",
     stages:[
-      {name:'Streamer',fly:'Woolly Bugger (Olive/Black/Brown)',sizes:'4–12',colors:['Olive','Black','Brown','White'],waterLevel:'💧 Mid-column — strip, swing, or dead drift',desc:'Marabou tail pulses with lifelike action. Fish with a strip-pause retrieve or dead drift under an indicator.'}
+      {name:'Streamer',fly:'Woolly Bugger (Black)',sizes:'4–12',colors:['Olive','Black','Brown','White'],waterLevel:'💧 Mid-column — strip, swing, or dead drift',desc:'Marabou tail pulses with lifelike action. Fish with a strip-pause retrieve or dead drift under an indicator.'}
     ],
     topFlies:[
       {name:'Woolly Bugger (Olive)',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Tungsten bead/conehead',tip:"Strip-pause retrieve along banks and deep pools. Olive is the single most productive color. The world's most versatile fly.",photo:'https://norrik.com/wp-content/uploads/2024/07/cheech-leech-streamer-small.jpg'},
@@ -966,8 +967,8 @@ function InsectDetail({ins}) {
           const photo = stagePhoto(s.fly);
           return (
             <div key={s.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
-              <div style={{width:'100%', height:130, background:C.forest, position:'relative', overflow:'hidden'}}>
-                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'cover'}}/>
+              <div style={{width:'100%', height:130, background:'#1a2e1a', position:'relative', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'contain', padding:'6px'}}/>
                 <div style={{position:'absolute', top:8, left:8, background:'rgba(0,0,0,0.62)', color:'white', fontSize:'0.58rem', fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', padding:'3px 8px', borderRadius:5}}>{s.name}</div>
               </div>
               <div style={{padding:'12px 13px'}}>
@@ -990,8 +991,8 @@ function InsectDetail({ins}) {
       <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(200px,1fr))', gap:14}}>
         {ins.topFlies.map(f => (
           <div key={f.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
-            <div style={{width:'100%', height:140, background:C.forest, overflow:'hidden'}}>
-              <ImgWithFallback src={f.photo} flyName={f.name} style={{width:'100%', height:'100%', objectFit:'cover'}}/>
+            <div style={{width:'100%', height:140, background:'#1a2e1a', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
+              <ImgWithFallback src={f.photo} flyName={f.name} style={{width:'100%', height:'100%', objectFit:'contain', padding:'6px'}}/>
             </div>
             <div style={{padding:'12px 14px'}}>
               <div style={{fontSize:'0.68rem', fontWeight:700, marginBottom:5, color: f.confidence==='High' ? '#4a9a4a' : C.amber}}>{f.confidence==='High' ? 'High confidence' : 'Med confidence'}</div>
