@@ -16,13 +16,13 @@ const DB = [
       {name:'Spinner',fly:'Rusty Spinner',sizes:'18–22',colors:['Rusty','Clear wings'],waterLevel:'🏄 Top water — spent, flush in film',desc:'Spent female falls to surface after egg-laying. Critical in evenings.'}
     ],
     topFlies:[
-      {name:'Pheasant Tail Nymph',style:'Nymph',sizes:'16–20',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Dead drift along bottom. Add a midge dropper in winter. One of the most universally effective nymphs ever tied.',photo:'https://bigyflyco.com/cdn/shop/products/Pheasant_Tail_512x342.jpg'},
-      {name:'RS2',style:'Emerger',sizes:'18–22',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Fish in the film on a greased leader. Essential on the South Platte.',photo:'https://bigyflyco.com/cdn/shop/products/RS2_512x342.jpg'},
-      {name:'Sparkle Dun (Olive)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Olive body for classic spring/fall BWOs. Trim wing to match local insects. Shuck trailing in the film seals the deal.',photo:'https://bigyflyco.com/cdn/shop/products/sparkel-dun-olive_073442eb-d26a-49a2-a280-84a14b797623_512x342.jpg'},
-      {name:'Sparkle Dun (Gray/Dark)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray or near-black body for winter BWOs and dark-colored Baetis. On overcast winter days, the darker version often outfishes olive. Always check the naturals.',photo:'https://bigyflyco.com/cdn/shop/products/sparkel-dun-olive_073442eb-d26a-49a2-a280-84a14b797623_512x342.jpg'},
-      {name:'Parachute Adams',style:'Dry',sizes:'14–22',hook:'Dry fly',confidence:'High',weight:'None',tip:"The world's most versatile dry fly. Works during BWO, caddis, and midge hatches. Never leave home without it.",photo:'https://bigyflyco.com/cdn/shop/products/Parachute_Adams_512x342.jpg'},
-      {name:'Copper John',style:'Nymph',sizes:'14–20',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:'Heavy wire body sinks fast. Deadly attractor nymph for both stonefly and mayfly imitation. Fish on the point in a two-fly rig.',photo:'https://bigyflyco.com/cdn/shop/products/Copper_John_512x342.jpg'},
-      {name:'Rusty Spinner',style:'Spinner',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish flat in the film at dusk.',photo:'https://bigyflyco.com/cdn/shop/products/Rusty_Spinner_512x342.jpg'}
+      {name:'Pheasant Tail Nymph',style:'Nymph',sizes:'16–20',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Dead drift along bottom. Add a midge dropper in winter. One of the most universally effective nymphs ever tied.',photo:'https://norrik.com/wp-content/uploads/2024/07/pheasant-tail-nymph-small.jpg'},
+      {name:'RS2',style:'Emerger',sizes:'18–22',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Fish in the film on a greased leader. Essential on the South Platte.',photo:'https://norrik.com/wp-content/uploads/2024/07/bwo-emerger-small.jpg'},
+      {name:'Sparkle Dun (Olive)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Olive body for classic spring/fall BWOs. Trim wing to match local insects. Shuck trailing in the film seals the deal.',photo:'https://norrik.com/wp-content/uploads/2024/07/comparadun-fly-small-1.jpg'},
+      {name:'Sparkle Dun (Gray/Dark)',style:'Dry',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray or near-black body for winter BWOs and dark-colored Baetis. On overcast winter days, the darker version often outfishes olive. Always check the naturals.',photo:'https://norrik.com/wp-content/uploads/2024/07/comparadun-fly-small-1.jpg'},
+      {name:'Parachute Adams',style:'Dry',sizes:'14–22',hook:'Dry fly',confidence:'High',weight:'None',tip:"The world's most versatile dry fly. Works during BWO, caddis, and midge hatches. Never leave home without it.",photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-adams-small.jpg'},
+      {name:'Copper John',style:'Nymph',sizes:'14–20',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:'Heavy wire body sinks fast. Deadly attractor nymph for both stonefly and mayfly imitation. Fish on the point in a two-fly rig.',photo:'https://norrik.com/wp-content/uploads/2024/07/copper-johns-nymph-small.jpg'},
+      {name:'Rusty Spinner',style:'Spinner',sizes:'18–22',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish flat in the film at dusk.',photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-spinner-fly.jpg'}
     ]
   },
   {
@@ -39,10 +39,10 @@ const DB = [
       {name:'Spinner',fly:'PMD Spinner',sizes:'16–18',colors:['Rusty red','Clear wings'],waterLevel:'🏄 Top water — spent, flush in film',desc:'Spinner fall in evenings or early morning.'}
     ],
     topFlies:[
-      {name:'PMD Comparadun',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Deer hair wing sits low in film. Perfect for spring creek fish.',photo:'https://bigyflyco.com/cdn/shop/products/Pale_Morning_Dun_Pale_Olive_512x342.jpg'},
-      {name:'Hares Ear Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Gold bead in riffles; unweighted in slow pools. Possibly the most versatile nymph in fly fishing — imitates mayflies, stoneflies, and caddis larvae.',photo:'https://bigyflyco.com/cdn/shop/products/Hares_Ear_512x342.jpg'},
-      {name:'Cripple PMD',style:'Emerger',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Hang tail in film. Trout love stuck emergers during heavy PMD hatches.',photo:'https://bigyflyco.com/cdn/shop/products/PMD_Cripple_512x342.jpg'},
-      {name:'Prince Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:"One of fly fishing's most proven attractor nymphs. White biots suggest a hatching wing. Deadly searching pattern in freestone rivers year-round.",photo:'https://bigyflyco.com/cdn/shop/products/Prince_Nymph_512x342.jpg'}
+      {name:'PMD Comparadun',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Deer hair wing sits low in film. Perfect for spring creek fish.',photo:'https://norrik.com/wp-content/uploads/2024/07/pmd-parachute-small.jpg'},
+      {name:'Hares Ear Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Gold bead in riffles; unweighted in slow pools. Possibly the most versatile nymph in fly fishing — imitates mayflies, stoneflies, and caddis larvae.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-nymph-small.jpg'},
+      {name:'Cripple PMD',style:'Emerger',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Hang tail in film. Trout love stuck emergers during heavy PMD hatches.',photo:'https://norrik.com/wp-content/uploads/2024/07/cripple-fly-small.jpg'},
+      {name:'Prince Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:"One of fly fishing's most proven attractor nymphs. White biots suggest a hatching wing. Deadly searching pattern in freestone rivers year-round.",photo:'https://norrik.com/wp-content/uploads/2024/07/prince-nymph-small.jpg'}
     ]
   },
   {
@@ -59,11 +59,11 @@ const DB = [
       {name:'Spinner',fly:'Sulphur Spinner',sizes:'16–18',colors:['Rusty orange','Clear wings'],waterLevel:'🏄 Top water — spent flush in film at dark',desc:'Spinner falls happen at dusk and after dark. Trout sip from barely visible rings. Essential late-season pattern.'}
     ],
     topFlies:[
-      {name:'Parachute Sulphur',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Match the local color — lemon yellow on some rivers, orange-yellow on others. Evening hatch, often at last light. 5X tippet minimum.',photo:'https://bigyflyco.com/cdn/shop/products/Parachute_Sulphur_512x342.jpg'},
-      {name:'Sulphur Comparadun',style:'Dry',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Low-riding deer hair wing. Perfect for selective fish on flat spring creek water. The toughest sulphur situations call for this over a parachute.',photo:'https://bigyflyco.com/cdn/shop/products/Sulphur_Comparadun_512x342.jpg'},
-      {name:'Sulphur Cripple',style:'Emerger',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Hang the tail in the film. Trout lock onto cripples during heavy sulphur hatches — often outfishes the dun pattern 5-to-1.',photo:'https://bigyflyco.com/cdn/shop/products/PMD_Cripple_512x342.jpg'},
-      {name:'Sulphur Spinner',style:'Spinner',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish spent spinners at dusk with 6X tippet. Trout sipping nearly invisible rings after dark are almost always on spinners.',photo:'https://bigyflyco.com/cdn/shop/products/Rusty_Spinner_512x342.jpg'},
-      {name:'Hares Ear Nymph',style:'Nymph',sizes:'14–16',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish before the evening hatch. Sulphur nymphs are active crawlers — a gold bead Hares Ear in riffles is hard to beat.',photo:'https://bigyflyco.com/cdn/shop/products/Hares_Ear_512x342.jpg'}
+      {name:'Parachute Sulphur',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Match the local color — lemon yellow on some rivers, orange-yellow on others. Evening hatch, often at last light. 5X tippet minimum.',photo:'https://norrik.com/wp-content/uploads/2024/07/pmd-parachute-small.jpg'},
+      {name:'Sulphur Comparadun',style:'Dry',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Low-riding deer hair wing. Perfect for selective fish on flat spring creek water. The toughest sulphur situations call for this over a parachute.',photo:'https://norrik.com/wp-content/uploads/2024/07/comparadun-fly-small-1.jpg'},
+      {name:'Sulphur Cripple',style:'Emerger',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Hang the tail in the film. Trout lock onto cripples during heavy sulphur hatches — often outfishes the dun pattern 5-to-1.',photo:'https://norrik.com/wp-content/uploads/2024/07/cripple-fly-small.jpg'},
+      {name:'Sulphur Spinner',style:'Spinner',sizes:'16–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish spent spinners at dusk with 6X tippet. Trout sipping nearly invisible rings after dark are almost always on spinners.',photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-spinner-fly.jpg'},
+      {name:'Hares Ear Nymph',style:'Nymph',sizes:'14–16',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish before the evening hatch. Sulphur nymphs are active crawlers — a gold bead Hares Ear in riffles is hard to beat.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-nymph-small.jpg'}
     ]
   },
   {
@@ -80,9 +80,9 @@ const DB = [
       {name:'Spinner',fly:'Great Red Spinner',sizes:'12–14',colors:['Red-brown','Clear wings'],waterLevel:'🏄 Top water — spent at dusk',desc:'Spinner fall at dusk.'}
     ],
     topFlies:[
-      {name:'Parachute Green Drake',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Big fly, big trout. Fish in foam lines during hatch.',photo:'https://bigyflyco.com/cdn/shop/products/Green_Drake_512x342.jpg'},
-      {name:'Olive Hares Ear',style:'Nymph',sizes:'10–14',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish heavy weeks before hatch.',photo:'https://bigyflyco.com/cdn/shop/products/Olive_Hares_Ear_512x342.jpg'},
-      {name:'Great Red Spinner',style:'Spinner',sizes:'12–14',hook:'Dry fly',confidence:'Med',weight:'None',tip:'Dusk spinner fall often missed.',photo:'https://bigyflyco.com/cdn/shop/products/Great_Red_Spinner_512x342.jpg'}
+      {name:'Parachute Green Drake',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Big fly, big trout. Fish in foam lines during hatch.',photo:'https://norrik.com/wp-content/uploads/2024/07/green-drake-fly-small.jpg'},
+      {name:'Olive Hares Ear',style:'Nymph',sizes:'10–14',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish heavy weeks before hatch.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-nymph-small.jpg'},
+      {name:'Great Red Spinner',style:'Spinner',sizes:'12–14',hook:'Dry fly',confidence:'Med',weight:'None',tip:'Dusk spinner fall often missed.',photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-spinner-fly.jpg'}
     ]
   },
   {
@@ -97,9 +97,9 @@ const DB = [
       {name:'Spinner',fly:'Trico Spinner / CDC Trico',sizes:'20–26',colors:['Black','White wings'],waterLevel:'🏄 Top water — spent flush in film',desc:'The key stage. Massive spinner falls carpet the surface. Trout sip endlessly.'}
     ],
     topFlies:[
-      {name:'Trico Spinner',style:'Spinner/Dry',sizes:'20–26',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish during the spinner fall. Use 6X or 7X tippet. Let the fly drift without drag — trout are extremely selective.',photo:'https://bigyflyco.com/cdn/shop/products/Trico_Spinner_512x342.jpg'},
-      {name:'CDC Trico',style:'Dry/Spinner',sizes:'22–26',hook:'Dry fly',confidence:'High',weight:'None',tip:'CDC wing sits flush in the film perfectly. Use a cluster pattern when fish are picking off multiple spinners at once.',photo:'https://bigyflyco.com/cdn/shop/products/CDC_Trico_512x342.jpg'},
-      {name:'Pheasant Tail Nymph',style:'Nymph',sizes:'20–24',hook:'Midge/Nymph',confidence:'Med',weight:'Unweighted',tip:'Fish tiny PT before the spinner fall begins.',photo:'https://bigyflyco.com/cdn/shop/products/Pheasant_Tail_512x342.jpg'}
+      {name:'Trico Spinner',style:'Spinner/Dry',sizes:'20–26',hook:'Dry fly',confidence:'High',weight:'None',tip:'Fish during the spinner fall. Use 6X or 7X tippet. Let the fly drift without drag — trout are extremely selective.',photo:'https://norrik.com/wp-content/uploads/2024/07/classic-mayfly-emerger-small.jpg'},
+      {name:'CDC Trico',style:'Dry/Spinner',sizes:'22–26',hook:'Dry fly',confidence:'High',weight:'None',tip:'CDC wing sits flush in the film perfectly. Use a cluster pattern when fish are picking off multiple spinners at once.',photo:'https://norrik.com/wp-content/uploads/2024/07/cdc-mayfly-emerger-small.jpg'},
+      {name:'Pheasant Tail Nymph',style:'Nymph',sizes:'20–24',hook:'Midge/Nymph',confidence:'Med',weight:'Unweighted',tip:'Fish tiny PT before the spinner fall begins.',photo:'https://norrik.com/wp-content/uploads/2024/07/pheasant-tail-nymph-small.jpg'}
     ]
   },
   {
@@ -116,10 +116,10 @@ const DB = [
       {name:'Spinner',fly:'Rusty Spinner',sizes:'14–16',colors:['Rusty brown','Clear wings'],waterLevel:'🏄 Top water — spent at dusk',desc:'Spinner fall in evenings.'}
     ],
     topFlies:[
-      {name:'Parachute Hendrickson',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'Classic eastern dry fly. Fish during the afternoon hatch in April–May.',photo:'https://bigyflyco.com/cdn/shop/products/Parachute_Hendrickson_512x342.jpg'},
-      {name:'Red Quill',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'Traditional wet fly also works well swung downstream.',photo:'https://bigyflyco.com/cdn/shop/products/Red_Quill_512x342.jpg'},
-      {name:'Soft Hackle Pheasant Tail',style:'Wet/Emerger',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Swing across and down during emergence. Deadly during March Brown hatches.',photo:'https://bigyflyco.com/cdn/shop/products/Soft_Hackle_PT_512x342.jpg'},
-      {name:'Hares Ear Nymph',style:'Nymph',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish this before the hatch begins. Deadliest early spring nymph.',photo:'https://bigyflyco.com/cdn/shop/products/Hares_Ear_512x342.jpg'}
+      {name:'Parachute Hendrickson',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'Classic eastern dry fly. Fish during the afternoon hatch in April–May.',photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-dry-fly-small.jpg'},
+      {name:'Red Quill',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'Traditional wet fly also works well swung downstream.',photo:'https://norrik.com/wp-content/uploads/2024/07/mahogany-dun-fly-small.jpg'},
+      {name:'Soft Hackle Pheasant Tail',style:'Wet/Emerger',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Swing across and down during emergence. Deadly during March Brown hatches.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-soft-hackle-small.jpg'},
+      {name:'Hares Ear Nymph',style:'Nymph',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'Fish this before the hatch begins. Deadliest early spring nymph.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-nymph-small.jpg'}
     ]
   },
   // ─── CADDISFLIES ─────────────────────────────────────────────────────────
@@ -136,13 +136,13 @@ const DB = [
       {name:'Adult',fly:'Elk Hair Caddis / X-Caddis',sizes:'12–18',colors:['Olive/tan (spring)','Tan/brown (summer)'],waterLevel:'🏄 Top water — skating and skittering on surface',desc:'Tent-shaped wing on surface. Skitter to imitate egg-laying. Color variations: olive-green in spring, tan in summer, orange-brown in fall.'}
     ],
     topFlies:[
-      {name:'Elk Hair Caddis (Tan)',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Tan is the universal summer color. Skitter across surface to imitate egg-laying females. One of the 5 most important dry flies ever tied.',photo:'https://bigyflyco.com/cdn/shop/products/Elk_Hair_Caddis_512x342.jpg'},
-      {name:'Elk Hair Caddis (Olive)',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Olive body for the spring Mother\'s Day caddis hatch (Brachycentrus). One of the most important spring hatches in the West and East.',photo:'https://bigyflyco.com/cdn/shop/products/Elk_Hair_Caddis_Olive_512x342.jpg'},
-      {name:'LaFontaine Sparkle Pupa (Green)',style:'Pupa/Wet',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'None',tip:'Bright green body for spring caddis. Fish just below the surface on a swing. The most important spring caddis pupa pattern.',photo:'https://bigyflyco.com/cdn/shop/products/Sparkle_Pupa_512x342.jpg'},
-      {name:'LaFontaine Sparkle Pupa (Amber)',style:'Pupa/Wet',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'None',tip:'Amber/tan for summer caddis pupa. Dead drift or swing under the surface during evening caddis flights.',photo:'https://bigyflyco.com/cdn/shop/products/Sparkle_Pupa_512x342.jpg'},
-      {name:'X-Caddis',style:'Dry/Emerger',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Z-lon shuck hangs in the film. Deadly for selective fish during heavy caddis hatches. Carry in tan and olive.',photo:'https://bigyflyco.com/cdn/shop/products/X_Caddis_512x342.jpg'},
-      {name:'Frenchie',style:'Nymph',sizes:'12–18',hook:'Jig nymph',confidence:'High',weight:'Tungsten bead',tip:'Euro nymphing staple. Hot spot pink/orange collar triggers strikes. Year-round caddis larva imitation.',photo:'https://bigyflyco.com/cdn/shop/products/Frenchie_512x342.jpg'},
-      {name:'Goddard Caddis',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Spun deer hair rides high and skates beautifully in fast water. Excellent searching pattern when you can\'t see the fly.',photo:'https://bigyflyco.com/cdn/shop/products/Goddard_Caddis_512x342.jpg'}
+      {name:'Elk Hair Caddis (Tan)',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Tan is the universal summer color. Skitter across surface to imitate egg-laying females. One of the 5 most important dry flies ever tied.',photo:'https://norrik.com/wp-content/uploads/2024/07/elk-hair-caddis-small-1.jpg'},
+      {name:'Elk Hair Caddis (Olive)',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Olive body for the spring Mother\'s Day caddis hatch (Brachycentrus). One of the most important spring hatches in the West and East.',photo:'https://norrik.com/wp-content/uploads/2024/07/elk-hair-caddis-small-1.jpg'},
+      {name:'LaFontaine Sparkle Pupa (Green)',style:'Pupa/Wet',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'None',tip:'Bright green body for spring caddis. Fish just below the surface on a swing. The most important spring caddis pupa pattern.',photo:'https://norrik.com/wp-content/uploads/2024/07/caddis-pupa-nymph-small.jpg'},
+      {name:'LaFontaine Sparkle Pupa (Amber)',style:'Pupa/Wet',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'None',tip:'Amber/tan for summer caddis pupa. Dead drift or swing under the surface during evening caddis flights.',photo:'https://norrik.com/wp-content/uploads/2024/07/caddis-pupa-nymph-small.jpg'},
+      {name:'X-Caddis',style:'Dry/Emerger',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Z-lon shuck hangs in the film. Deadly for selective fish during heavy caddis hatches. Carry in tan and olive.',photo:'https://norrik.com/wp-content/uploads/2024/07/elk-hair-emerger-small.jpg'},
+      {name:'Frenchie',style:'Nymph',sizes:'12–18',hook:'Jig nymph',confidence:'High',weight:'Tungsten bead',tip:'Euro nymphing staple. Hot spot pink/orange collar triggers strikes. Year-round caddis larva imitation.',photo:'https://norrik.com/wp-content/uploads/2024/07/perdigon-nymph-small.jpg'},
+      {name:'Goddard Caddis',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Spun deer hair rides high and skates beautifully in fast water. Excellent searching pattern when you can\'t see the fly.',photo:'https://norrik.com/wp-content/uploads/2024/07/goddard-caddis-fly-small.jpg'}
     ]
   },
   {
@@ -158,10 +158,10 @@ const DB = [
       {name:'Adult',fly:'Orange EHC / Orange Stimulator',sizes:'8–12',colors:['Burnt orange','Dark grayish-brown wing'],waterLevel:'🏄 Top water — skated and twitched',desc:'Large adults skitter, flutter, and dive-bomb to lay eggs. Animate the fly — twitch, skate, swing. Skating triggers explosive strikes. Evening is peak time.'}
     ],
     topFlies:[
-      {name:'Orange Elk Hair Caddis',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Burnt orange foam body, ginger hackle, dark deer hair wing. Skate and twitch at dusk — October Caddis egg-laying is active, not passive.',photo:'https://bigyflyco.com/cdn/shop/products/October_Caddis_512x342.jpg'},
-      {name:'Orange Stimulator',style:'Dry/Attractor',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Big, buoyant, and orange — imitates both October Caddis and Salmonfly adults. Excellent searching pattern even without a visible hatch.',photo:'https://bigyflyco.com/cdn/shop/products/Orange_Stimulator_512x342.jpg'},
-      {name:'October Caddis Pupa',style:'Pupa/Wet',sizes:'6–10',hook:'Standard nymph',confidence:'High',weight:'Black tungsten bead',tip:'Burnt orange body, black bead. Swing across and down through riffles and runs. Add rod twitches to suggest an ascending pupa. Also works for steelhead.',photo:'https://bigyflyco.com/cdn/shop/products/October_Caddis_Pupa_512x342.jpg'},
-      {name:'Goddard Caddis (Orange)',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Spun deer hair head creates water disturbance when skated. The wake triggers reaction strikes from large fish.',photo:'https://bigyflyco.com/cdn/shop/products/Goddard_Caddis_512x342.jpg'}
+      {name:'Orange Elk Hair Caddis',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Burnt orange foam body, ginger hackle, dark deer hair wing. Skate and twitch at dusk — October Caddis egg-laying is active, not passive.',photo:'https://norrik.com/wp-content/uploads/2024/07/october-caddis-fly-small.jpg'},
+      {name:'Orange Stimulator',style:'Dry/Attractor',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Big, buoyant, and orange — imitates both October Caddis and Salmonfly adults. Excellent searching pattern even without a visible hatch.',photo:'https://norrik.com/wp-content/uploads/2024/07/golden-stonefly-nymph-small.jpg'},
+      {name:'October Caddis Pupa',style:'Pupa/Wet',sizes:'6–10',hook:'Standard nymph',confidence:'High',weight:'Black tungsten bead',tip:'Burnt orange body, black bead. Swing across and down through riffles and runs. Add rod twitches to suggest an ascending pupa. Also works for steelhead.',photo:'https://norrik.com/wp-content/uploads/2024/07/caddis-pupa-nymph-small.jpg'},
+      {name:'Goddard Caddis (Orange)',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Spun deer hair head creates water disturbance when skated. The wake triggers reaction strikes from large fish.',photo:'https://norrik.com/wp-content/uploads/2024/07/goddard-caddis-fly-small.jpg'}
     ]
   },
   // ─── STONEFLIES ──────────────────────────────────────────────────────────
@@ -177,9 +177,9 @@ const DB = [
       {name:'Adult',fly:'Chubby Chernobyl / Sofa Pillow',sizes:'2–8',colors:['Orange','Red-orange','Brown wing'],waterLevel:'🏄 Top water — large fly near banks',desc:'Enormous surface fly. Fish near banks and under overhanging vegetation.'}
     ],
     topFlies:[
-      {name:'Chubby Chernobyl',style:'Dry',sizes:'4–8',hook:'Dry fly',confidence:'High',weight:'None',tip:'Foam body floats all day. Doubles as a hopper indicator for a dropper rig.',photo:'https://bigyflyco.com/cdn/shop/files/Chubby_Chernobyl_Pumpkin_512x342.jpg'},
-      {name:'Sofa Pillow',style:'Dry',sizes:'2–6',hook:'Dry fly',confidence:'High',weight:'None',tip:'Classic big-water salmonfly dry. Slap it down near banks.',photo:'https://bigyflyco.com/cdn/shop/products/Sofa_Pillow_512x342.jpg'},
-      {name:'Kaufmanns Stone',style:'Nymph',sizes:'2–6',hook:'Heavy nymph',confidence:'High',weight:'Lead wire',tip:'Fish deep along the bottom before the hatch peaks. The most realistic salmonfly nymph.',photo:'https://bigyflyco.com/cdn/shop/products/Kaufmanns_Stone_512x342.jpg'}
+      {name:'Chubby Chernobyl',style:'Dry',sizes:'4–8',hook:'Dry fly',confidence:'High',weight:'None',tip:'Foam body floats all day. Doubles as a hopper indicator for a dropper rig.',photo:'https://norrik.com/wp-content/uploads/2024/07/chubby-chernobyl-small.jpg'},
+      {name:'Sofa Pillow',style:'Dry',sizes:'2–6',hook:'Dry fly',confidence:'High',weight:'None',tip:'Classic big-water salmonfly dry. Slap it down near banks.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-dry-fly-pattern-small.jpg'},
+      {name:'Kaufmanns Stone',style:'Nymph',sizes:'2–6',hook:'Heavy nymph',confidence:'High',weight:'Lead wire',tip:'Fish deep along the bottom before the hatch peaks. The most realistic salmonfly nymph.',photo:'https://norrik.com/wp-content/uploads/2024/07/black-stonefly-nymph-small.jpg'}
     ]
   },
   {
@@ -194,9 +194,9 @@ const DB = [
       {name:'Adult',fly:'Yellow Stimulator',sizes:'6–14',colors:['Golden yellow','Tan wing'],waterLevel:'🏄 Top water — skating on surface near banks',desc:'Skates and flutters. Fish banks and pocket water with an occasional twitch.'}
     ],
     topFlies:[
-      {name:'Yellow Stimulator',style:'Dry',sizes:'6–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Year-round attractor. Dead drift or skitter. Great hopper-dropper indicator.',photo:'https://bigyflyco.com/cdn/shop/products/stimulator-chart_84428ee3-993d-460f-b215-2f560927c983_512x342.jpg'},
-      {name:"Pat's Rubber Legs",style:'Nymph',sizes:'6–10',hook:'Heavy nymph',confidence:'High',weight:'Tungsten bead',tip:'Get it deep in pocket water. Rubber legs pulse with the current — irresistible.',photo:'https://bigyflyco.com/cdn/shop/products/Pats_Rubber_Legs_512x342.jpg'},
-      {name:'Royal Wulff',style:'Dry',sizes:'10–16',hook:'Dry fly',confidence:'High',weight:'None',tip:"One of fly fishing's most famous attractors. Visible in fast water. Works when nothing is hatching.",photo:'https://bigyflyco.com/cdn/shop/products/Royal_Wulff_512x342.jpg'}
+      {name:'Yellow Stimulator',style:'Dry',sizes:'6–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Year-round attractor. Dead drift or skitter. Great hopper-dropper indicator.',photo:'https://norrik.com/wp-content/uploads/2024/07/golden-stonefly-nymph-small.jpg'},
+      {name:"Pat's Rubber Legs",style:'Nymph',sizes:'6–10',hook:'Heavy nymph',confidence:'High',weight:'Tungsten bead',tip:'Get it deep in pocket water. Rubber legs pulse with the current — irresistible.',photo:'https://norrik.com/wp-content/uploads/2024/07/pats-rubber-legs.jpg'},
+      {name:'Royal Wulff',style:'Dry',sizes:'10–16',hook:'Dry fly',confidence:'High',weight:'None',tip:"One of fly fishing's most famous attractors. Visible in fast water. Works when nothing is hatching.",photo:'https://norrik.com/wp-content/uploads/2024/07/comparadun-fly-small-1.jpg'}
     ]
   },
   // ─── MIDGES ──────────────────────────────────────────────────────────────
@@ -213,14 +213,14 @@ const DB = [
       {name:'Adult',fly:"Griffith's Gnat",sizes:'18–28',colors:['Black','Gray'],waterLevel:'🏄 Top water — tiny flies on surface',desc:"Tiny flies on surface, often in clusters. Difficult to see — use high-vis post."}
     ],
     topFlies:[
-      {name:'Zebra Midge',style:'Pupa/Nymph',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Beadhead',tip:'Fish 18 inches below indicator in tailwaters. The single most important tailwater fly.',photo:'https://bigyflyco.com/cdn/shop/products/Zebra_Midge_512x342.jpg'},
-      {name:'Mercury Midge',style:'Pupa',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Clear bead',tip:'Glass bead catches light. Exceptional on the South Platte and Bighorn.',photo:'https://bigyflyco.com/cdn/shop/products/Mercury_Midge_512x342.jpg'},
-      {name:"Griffith's Gnat",style:'Dry',sizes:'18–24',hook:'Dry fly',confidence:'High',weight:'None',tip:'Mimics a midge cluster on the surface. Essential tailwater dry fly.',photo:'https://bigyflyco.com/cdn/shop/products/Griffith_Gnat_512x342.jpg'},
-      {name:'Brassie',style:'Larva',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Wire body',tip:'Copper wire body is heavy and segmented. Pair with a Zebra Midge dropper.',photo:'https://bigyflyco.com/cdn/shop/products/Brassie_512x342.jpg'},
-      {name:'WD-40',style:'Emerger/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:"Deadly during BWO and midge emergences. Fish in the film when trout are sipping and you can't figure out what they're eating.",photo:'https://bigyflyco.com/cdn/shop/products/WD40_512x342.jpg'},
-      {name:'Rainbow Warrior',style:'Pupa/Attractor',sizes:'18–22',hook:'Midge/Jig nymph',confidence:'High',weight:'Tungsten bead',tip:"Lance Egan's flashy midge pupa — the pearl body and pink legs make it irresistible to tailwater trout. Fish it as the top fly in a two-fly nymph rig. Effective year-round but especially winter and early spring.",photo:'https://bigyflyco.com/cdn/shop/products/Rainbow_Warrior_512x342.jpg'},
-      {name:'Top Secret Midge',style:'Pupa/Emerger',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Beadhead or unweighted',tip:"Pat Dorsey's South Platte special. Thread body with a touch of sparkle — fish it last in a three-fly rig behind a Copper John and Mercury Midge. Unweighted version excels in the film.",photo:'https://bigyflyco.com/cdn/shop/products/Top_Secret_Midge_512x342.jpg'},
-      {name:'Black Beauty',style:'Larva/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Slim black thread body with a thin wire rib — nearly invisible but incredibly effective on pressured tailwaters. A go-to when trout are refusing everything else. Best in clear, low water conditions.',photo:'https://bigyflyco.com/cdn/shop/products/Black_Beauty_512x342.jpg'}
+      {name:'Zebra Midge',style:'Pupa/Nymph',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Beadhead',tip:'Fish 18 inches below indicator in tailwaters. The single most important tailwater fly.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'},
+      {name:'Mercury Midge',style:'Pupa',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Clear bead',tip:'Glass bead catches light. Exceptional on the South Platte and Bighorn.',photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-midge-small.jpg'},
+      {name:"Griffith's Gnat",style:'Dry',sizes:'18–24',hook:'Dry fly',confidence:'High',weight:'None',tip:'Mimics a midge cluster on the surface. Essential tailwater dry fly.',photo:'https://norrik.com/wp-content/uploads/2024/07/griffiths-gnat-small.jpg'},
+      {name:'Brassie',style:'Larva',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Wire body',tip:'Copper wire body is heavy and segmented. Pair with a Zebra Midge dropper.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'},
+      {name:'WD-40',style:'Emerger/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:"Deadly during BWO and midge emergences. Fish in the film when trout are sipping and you can't figure out what they're eating.",photo:'https://norrik.com/wp-content/uploads/2024/07/cdc-mayfly-emerger-small.jpg'},
+      {name:'Rainbow Warrior',style:'Pupa/Attractor',sizes:'18–22',hook:'Midge/Jig nymph',confidence:'High',weight:'Tungsten bead',tip:"Lance Egan's flashy midge pupa — the pearl body and pink legs make it irresistible to tailwater trout. Fish it as the top fly in a two-fly nymph rig. Effective year-round but especially winter and early spring.",photo:'https://norrik.com/wp-content/uploads/2024/07/perdigon-nymph-small.jpg'},
+      {name:'Top Secret Midge',style:'Pupa/Emerger',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Beadhead or unweighted',tip:"Pat Dorsey's South Platte special. Thread body with a touch of sparkle — fish it last in a three-fly rig behind a Copper John and Mercury Midge. Unweighted version excels in the film.",photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-midge-small.jpg'},
+      {name:'Black Beauty',style:'Larva/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Slim black thread body with a thin wire rib — nearly invisible but incredibly effective on pressured tailwaters. A go-to when trout are refusing everything else. Best in clear, low water conditions.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
   },
   // ─── TERRESTRIALS ────────────────────────────────────────────────────────
@@ -235,10 +235,10 @@ const DB = [
       {name:'Adult',fly:"Dave's Hopper / Chubby Chernobyl",sizes:'4–12',colors:['Yellow','Tan','Green'],waterLevel:'🏄 Top water — slapped hard on surface near banks',desc:'Fish tight to banks. Slap the fly down to imitate the impact. Occasional twitches trigger strikes.'}
     ],
     topFlies:[
-      {name:"Dave's Hopper",style:'Dry',sizes:'6–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Slap hard against the bank. Pause 3–5 seconds then twitch.',photo:'https://bigyflyco.com/cdn/shop/products/daves_hopper_foam_body_512x342.jpg'},
-      {name:'Chubby Chernobyl',style:'Dry/Attractor',sizes:'6–10',hook:'Dry fly',confidence:'High',weight:'None',tip:'Best indicator for a dropper rig. Float all day without reapplying floatant.',photo:'https://bigyflyco.com/cdn/shop/files/Chubby_Chernobyl_Pumpkin_512x342.jpg'},
-      {name:'Parachute Hopper',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'High-vis parachute post. Excellent on flat-water meadow stretches.',photo:'https://bigyflyco.com/cdn/shop/products/Parachute_Hopper_512x342.jpg'},
-      {name:'Fat Albert',style:'Dry/Attractor',sizes:'6–10',hook:'Dry fly',confidence:'High',weight:'None',tip:'Foam body with rubber legs. Imitates hoppers, crickets, and large stoneflies. Great hopper-dropper indicator.',photo:'https://bigyflyco.com/cdn/shop/products/Fat_Albert_512x342.jpg'}
+      {name:"Dave's Hopper",style:'Dry',sizes:'6–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Slap hard against the bank. Pause 3–5 seconds then twitch.',photo:'https://norrik.com/wp-content/uploads/2024/07/hopper-fly-small.jpg'},
+      {name:'Chubby Chernobyl',style:'Dry/Attractor',sizes:'6–10',hook:'Dry fly',confidence:'High',weight:'None',tip:'Best indicator for a dropper rig. Float all day without reapplying floatant.',photo:'https://norrik.com/wp-content/uploads/2024/07/chubby-chernobyl-small.jpg'},
+      {name:'Parachute Hopper',style:'Dry',sizes:'8–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'High-vis parachute post. Excellent on flat-water meadow stretches.',photo:'https://norrik.com/wp-content/uploads/2024/07/hopper-fly-small.jpg'},
+      {name:'Fat Albert',style:'Dry/Attractor',sizes:'6–10',hook:'Dry fly',confidence:'High',weight:'None',tip:'Foam body with rubber legs. Imitates hoppers, crickets, and large stoneflies. Great hopper-dropper indicator.',photo:'https://norrik.com/wp-content/uploads/2024/07/chubby-chernobyl-small.jpg'}
     ]
   },
   {
@@ -253,10 +253,10 @@ const DB = [
       {name:'Beetle',fly:'Foam Beetle / Deer Hair Beetle',sizes:'12–18',colors:['Black','Brown'],waterLevel:'🏄 Top water — low-riding on surface',desc:'Work along banks and log jams. Beetles ride very low — match the slim profile.'}
     ],
     topFlies:[
-      {name:'Foam Ant',style:'Dry',sizes:'14–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Simple but deadly. Works on pressured fish that reject hoppers. High-vis foam post helps sighting.',photo:'https://bigyflyco.com/cdn/shop/products/Foam_Ant_512x342.jpg'},
-      {name:'Flying Ant',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'During ant flights, this fly outfishes everything. Keep a few winged ant patterns in your box at all times.',photo:'https://bigyflyco.com/cdn/shop/products/Flying_Ant_512x342.jpg'},
-      {name:'Foam Beetle',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Drift along banks and foam lines. Foam body is virtually unsinkable. Works throughout the season.',photo:'https://bigyflyco.com/cdn/shop/products/Foam_Beetle_512x342.jpg'},
-      {name:'CDC Ant',style:'Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'For selective fish in still water and spring creeks. CDC wing provides a realistic footprint in the film.',photo:'https://bigyflyco.com/cdn/shop/products/CDC_Ant_512x342.jpg'}
+      {name:'Foam Ant',style:'Dry',sizes:'14–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Simple but deadly. Works on pressured fish that reject hoppers. High-vis foam post helps sighting.',photo:'https://norrik.com/wp-content/uploads/2024/07/ant-fly-pattern-small.jpg'},
+      {name:'Flying Ant',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'During ant flights, this fly outfishes everything. Keep a few winged ant patterns in your box at all times.',photo:'https://norrik.com/wp-content/uploads/2024/07/chernobyl-ant-small.jpg'},
+      {name:'Foam Beetle',style:'Dry',sizes:'12–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Drift along banks and foam lines. Foam body is virtually unsinkable. Works throughout the season.',photo:'https://norrik.com/wp-content/uploads/2024/07/beetle-fly-small.jpg'},
+      {name:'CDC Ant',style:'Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'For selective fish in still water and spring creeks. CDC wing provides a realistic footprint in the film.',photo:'https://norrik.com/wp-content/uploads/2024/07/ant-fly-pattern-small.jpg'}
     ]
   },
   // ─── STREAMERS ───────────────────────────────────────────────────────────
@@ -271,10 +271,10 @@ const DB = [
       {name:'Streamer',fly:'Woolly Bugger (Olive/Black/Brown)',sizes:'4–12',colors:['Olive','Black','Brown','White'],waterLevel:'💧 Mid-column — strip, swing, or dead drift',desc:'Marabou tail pulses with lifelike action. Fish with a strip-pause retrieve or dead drift under an indicator.'}
     ],
     topFlies:[
-      {name:'Woolly Bugger (Olive)',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Tungsten bead/conehead',tip:"Strip-pause retrieve along banks and deep pools. Olive is the single most productive color. The world's most versatile fly.",photo:'https://bigyflyco.com/cdn/shop/products/Woolly_Bugger_Olive_512x342.jpg'},
-      {name:'Woolly Bugger (Black)',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Tungsten bead/conehead',tip:'Black is the go-to in low light, stained water, and overcast days. Also deadly for bass and pike.',photo:'https://bigyflyco.com/cdn/shop/products/Woolly_Bugger_Black_512x342.jpg'},
-      {name:'Muddler Minnow',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Optional cone',tip:'Imitates sculpin and baitfish. Fish dead drift, strip, or swing. One of the most historically proven streamers ever tied.',photo:'https://bigyflyco.com/cdn/shop/products/Muddler_Minnow_512x342.jpg'},
-      {name:'Clouser Minnow',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Dumbbell eyes',tip:'Weighted eyes cause a jig action. Deadly for trout, bass, and saltwater fish. Fish with fast strips.',photo:'https://bigyflyco.com/cdn/shop/products/Clouser_Minnow_512x342.jpg'}
+      {name:'Woolly Bugger (Olive)',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Tungsten bead/conehead',tip:"Strip-pause retrieve along banks and deep pools. Olive is the single most productive color. The world's most versatile fly.",photo:'https://norrik.com/wp-content/uploads/2024/07/cheech-leech-streamer-small.jpg'},
+      {name:'Woolly Bugger (Black)',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Tungsten bead/conehead',tip:'Black is the go-to in low light, stained water, and overcast days. Also deadly for bass and pike.',photo:'https://norrik.com/wp-content/uploads/2024/07/drunk-and-disorderly-streamer-small.jpg'},
+      {name:'Muddler Minnow',style:'Streamer',sizes:'4–10',hook:'Streamer',confidence:'High',weight:'Optional cone',tip:'Imitates sculpin and baitfish. Fish dead drift, strip, or swing. One of the most historically proven streamers ever tied.',photo:'https://norrik.com/wp-content/uploads/2024/07/muddler-minnow-fly-small.jpg'},
+      {name:'Clouser Minnow',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Dumbbell eyes',tip:'Weighted eyes cause a jig action. Deadly for trout, bass, and saltwater fish. Fish with fast strips.',photo:'https://norrik.com/wp-content/uploads/2024/07/clouser-minnow-small.jpg'}
     ]
   },
   {
@@ -289,10 +289,10 @@ const DB = [
       {name:'Leech',fly:'Woolly Bugger / Zonker',sizes:'4–10',colors:['Black','Brown','Maroon'],waterLevel:'💧 Mid-column — slow strip retrieve',desc:'Leeches undulate with a slow, sinuous movement. Strip slowly with long pauses.'}
     ],
     topFlies:[
-      {name:'Zonker',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Conehead',tip:'Rabbit strip wing breathes with every strip. Deadly for big browns in fall. Fish on the swing in deep runs.',photo:'https://bigyflyco.com/cdn/shop/products/Zonker_512x342.jpg'},
-      {name:'Conehead Muddler',style:'Streamer/Sculpin',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Brass cone',tip:'Bounce along the bottom in deep runs. Best for large, aggressive fish holding near structure.',photo:'https://bigyflyco.com/cdn/shop/products/Conehead_Muddler_512x342.jpg'},
-      {name:'Egg-Sucking Leech',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:'Hot pink or orange bead imitates an egg. Dominant pattern for steelhead and large trout in fall.',photo:'https://bigyflyco.com/cdn/shop/products/Egg_Sucking_Leech_512x342.jpg'},
-      {name:'Sparkle Minnow',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:'Flash and movement trigger reaction strikes in off-color water and low light. Brown/yellow is the go-to color.',photo:'https://bigyflyco.com/cdn/shop/products/Sparkle_Minnow_512x342.jpg'}
+      {name:'Zonker',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Conehead',tip:'Rabbit strip wing breathes with every strip. Deadly for big browns in fall. Fish on the swing in deep runs.',photo:'https://norrik.com/wp-content/uploads/2024/07/articulated-streamer-small.jpg'},
+      {name:'Conehead Muddler',style:'Streamer/Sculpin',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Brass cone',tip:'Bounce along the bottom in deep runs. Best for large, aggressive fish holding near structure.',photo:'https://norrik.com/wp-content/uploads/2024/07/muddler-minnow-fly-small.jpg'},
+      {name:'Egg-Sucking Leech',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:'Hot pink or orange bead imitates an egg. Dominant pattern for steelhead and large trout in fall.',photo:'https://norrik.com/wp-content/uploads/2024/07/cheech-leech-streamer-small.jpg'},
+      {name:'Sparkle Minnow',style:'Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:'Flash and movement trigger reaction strikes in off-color water and low light. Brown/yellow is the go-to color.',photo:'https://norrik.com/wp-content/uploads/2024/07/kreelex-minnow-small.jpg'}
     ]
   },
   // ─── ATTRACTOR / SEARCHING NYMPHS ────────────────────────────────────────
@@ -310,13 +310,13 @@ const DB = [
       {name:'Worm',fly:'Squirmy Wormy / San Juan Worm',sizes:'10–14',colors:['Red','Pink','Coral','Natural'],waterLevel:'🪨 Bottom — dead drift tight to the bed',desc:'Aquatic worms are swept loose by current and rain events. The squirmy material wiggles with zero movement from the angler — trout eat it with confidence.'}
     ],
     topFlies:[
-      {name:'Squirmy Wormy',style:'Nymph/Worm',sizes:'10–14',hook:'Standard nymph or jig',confidence:'High',weight:'Tungsten bead',tip:'The silicone tail wiggles on its own in current — trout treat it as a meal, not a fly. Red and pink year-round; coral after runoff. Fish on the bottom with a tight line or indicator. A guide secret weapon after rain.',photo:'https://bigyflyco.com/cdn/shop/products/Squirmy_Wormy_512x342.jpg'},
-      {name:'Copper John',style:'Nymph',sizes:'12–20',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:'The most popular trout nymph in the US. Sinks fast, flashes in deep water. Fish on the point with a smaller dropper above.',photo:'https://bigyflyco.com/cdn/shop/products/Copper_John_512x342.jpg'},
-      {name:'Prince Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'White biot wings suggest an emerging wing. Irresistible searching pattern on freestone rivers. Been catching fish for 80+ years.',photo:'https://bigyflyco.com/cdn/shop/products/Prince_Nymph_512x342.jpg'},
-      {name:'Royal Wulff',style:'Dry',sizes:'10–16',hook:'Dry fly',confidence:'High',weight:'None',tip:"Float in fast pocket water when no hatch is present. One of fly fishing's most beloved flies — visible and durable.",photo:'https://bigyflyco.com/cdn/shop/products/Royal_Wulff_512x342.jpg'},
-      {name:'Soft Hackle Pheasant Tail',style:'Wet/Swing',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Swing across and downstream in riffles at the end of a drift. Imitates emerging caddis, mayflies, and midges all at once.',photo:'https://bigyflyco.com/cdn/shop/products/Soft_Hackle_PT_512x342.jpg'},
-      {name:'San Juan Worm',style:'Nymph/Worm',sizes:'10–16',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:"Controversial but deadly. Especially effective after rain or in high water. Don't ignore it — guides use it constantly.",photo:'https://bigyflyco.com/cdn/shop/products/San_Juan_Worm_512x342.jpg'},
-      {name:'Perdigon',style:'Nymph',sizes:'14–20',hook:'Jig nymph',confidence:'High',weight:'Tungsten bead',tip:'Ultra-thin, fast-sinking Euro nymph. Developed in competition fishing. Gets to the bottom in fast water faster than anything else.',photo:'https://bigyflyco.com/cdn/shop/products/Perdigon_512x342.jpg'}
+      {name:'Squirmy Wormy',style:'Nymph/Worm',sizes:'10–14',hook:'Standard nymph or jig',confidence:'High',weight:'Tungsten bead',tip:'The silicone tail wiggles on its own in current — trout treat it as a meal, not a fly. Red and pink year-round; coral after runoff. Fish on the bottom with a tight line or indicator. A guide secret weapon after rain.',photo:'https://norrik.com/wp-content/uploads/2024/07/girdle-bug-fly-small.jpg'},
+      {name:'Copper John',style:'Nymph',sizes:'12–20',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:'The most popular trout nymph in the US. Sinks fast, flashes in deep water. Fish on the point with a smaller dropper above.',photo:'https://norrik.com/wp-content/uploads/2024/07/copper-johns-nymph-small.jpg'},
+      {name:'Prince Nymph',style:'Nymph',sizes:'12–18',hook:'Standard nymph',confidence:'High',weight:'Beadhead',tip:'White biot wings suggest an emerging wing. Irresistible searching pattern on freestone rivers. Been catching fish for 80+ years.',photo:'https://norrik.com/wp-content/uploads/2024/07/prince-nymph-small.jpg'},
+      {name:'Royal Wulff',style:'Dry',sizes:'10–16',hook:'Dry fly',confidence:'High',weight:'None',tip:"Float in fast pocket water when no hatch is present. One of fly fishing's most beloved flies — visible and durable.",photo:'https://norrik.com/wp-content/uploads/2024/07/comparadun-fly-small-1.jpg'},
+      {name:'Soft Hackle Pheasant Tail',style:'Wet/Swing',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Swing across and downstream in riffles at the end of a drift. Imitates emerging caddis, mayflies, and midges all at once.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-soft-hackle-small.jpg'},
+      {name:'San Juan Worm',style:'Nymph/Worm',sizes:'10–16',hook:'Standard nymph',confidence:'High',weight:'Tungsten bead',tip:"Controversial but deadly. Especially effective after rain or in high water. Don't ignore it — guides use it constantly.",photo:'https://norrik.com/wp-content/uploads/2024/07/girdle-bug-fly-small.jpg'},
+      {name:'Perdigon',style:'Nymph',sizes:'14–20',hook:'Jig nymph',confidence:'High',weight:'Tungsten bead',tip:'Ultra-thin, fast-sinking Euro nymph. Developed in competition fishing. Gets to the bottom in fast water faster than anything else.',photo:'https://norrik.com/wp-content/uploads/2024/07/perdigon-nymph-small.jpg'}
     ]
   },
   // ─── EGG PATTERNS ────────────────────────────────────────────────────────
@@ -332,9 +332,9 @@ const DB = [
       {name:'Egg Cluster',fly:'Cluster Egg',sizes:'6–10',colors:['Peach','Orange','Salmon'],waterLevel:'🪨 Bottom — dead drift in seams',desc:'Clump of eggs sticks together after being washed downstream. More realistic in fast water.'}
     ],
     topFlies:[
-      {name:'Glo Bug',style:'Egg',sizes:'8–12',hook:'Egg hook',confidence:'High',weight:'None',tip:'Peach or pink in clear water; chartreuse in stained water. Fish 8–12 inches off the bottom below indicator.',photo:'https://bigyflyco.com/cdn/shop/products/Glo_Bug_512x342.jpg'},
-      {name:'Nuke Egg',style:'Egg',sizes:'10–14',hook:'Egg hook',confidence:'High',weight:'None',tip:'Smaller, more realistic profile than a Glo Bug. Excellent on pressured tailwaters where trout see eggs all day.',photo:'https://bigyflyco.com/cdn/shop/products/Nuke_Egg_512x342.jpg'},
-      {name:'Egg-Sucking Leech',style:'Egg/Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:"Double threat — egg on the nose, leech on the body. Dominant Great Lakes tributary fly. Also one of the best steelhead patterns you'll throw.",photo:'https://bigyflyco.com/cdn/shop/products/Egg_Sucking_Leech_512x342.jpg'}
+      {name:'Glo Bug',style:'Egg',sizes:'8–12',hook:'Egg hook',confidence:'High',weight:'None',tip:'Peach or pink in clear water; chartreuse in stained water. Fish 8–12 inches off the bottom below indicator.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-dry-fly-pattern-small.jpg'},
+      {name:'Nuke Egg',style:'Egg',sizes:'10–14',hook:'Egg hook',confidence:'High',weight:'None',tip:'Smaller, more realistic profile than a Glo Bug. Excellent on pressured tailwaters where trout see eggs all day.',photo:'https://norrik.com/wp-content/uploads/2024/07/classic-mayfly-emerger-small.jpg'},
+      {name:'Egg-Sucking Leech',style:'Egg/Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:"Double threat — egg on the nose, leech on the body. Dominant Great Lakes tributary fly. Also one of the best steelhead patterns you'll throw.",photo:'https://norrik.com/wp-content/uploads/2024/07/cheech-leech-streamer-small.jpg'}
     ]
   }
 ];
