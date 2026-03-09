@@ -968,7 +968,7 @@ function InsectDetail({ins}) {
           return (
             <div key={s.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
               <div style={{width:'100%', height:130, background:'#1a2e1a', position:'relative', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
-                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'contain', transform:'scale(1.35)', transformOrigin:'center'}}/>
+                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'cover', transformOrigin:'center'}}/>
                 <div style={{position:'absolute', top:8, left:8, background:'rgba(0,0,0,0.62)', color:'white', fontSize:'0.58rem', fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', padding:'3px 8px', borderRadius:5}}>{s.name}</div>
               </div>
               <div style={{padding:'12px 13px'}}>
