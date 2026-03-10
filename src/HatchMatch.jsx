@@ -193,7 +193,8 @@ const DB = [
     topFlies:[
       {name:'Chubby Chernobyl',style:'Dry',sizes:'4–8',hook:'Dry fly',confidence:'High',weight:'None',tip:'Foam body floats all day. Doubles as a hopper indicator for a dropper rig.',photo:'https://norrik.com/wp-content/uploads/2024/07/chubby-chernobyl-small.jpg'},
       {name:'Sofa Pillow',style:'Dry',sizes:'2–6',hook:'Dry fly',confidence:'High',weight:'None',tip:'Classic big-water salmonfly dry. Slap it down near banks.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-dry-fly-pattern-small.jpg'},
-      {name:'Kaufmanns Stone',style:'Nymph',sizes:'2–6',hook:'Heavy nymph',confidence:'High',weight:'Lead wire',tip:'Fish deep along the bottom before the hatch peaks. The most realistic salmonfly nymph.',photo:'https://norrik.com/wp-content/uploads/2024/07/black-stonefly-nymph-small.jpg'}
+      {name:'Kaufmanns Stone',style:'Nymph',sizes:'2–6',hook:'Heavy nymph',confidence:'High',weight:'Lead wire',tip:'Fish deep along the bottom before the hatch peaks. The most realistic salmonfly nymph.',photo:'https://norrik.com/wp-content/uploads/2024/07/black-stonefly-nymph-small.jpg'},
+      {name:'PMX (Purple Haze)',style:'Dry/Attractor',sizes:'4–10',hook:'Dry fly',confidence:'High',weight:'None',tip:"Parachute Madam X — one of the most effective big dry flies ever tied. The purple version is a Yellowstone/Madison staple. Fish it as a single or with a nymph dropper. Trout crush it even between hatches.",photo:'https://norrik.com/wp-content/uploads/2024/07/chubby-chernobyl-small.jpg'}
     ]
   },
   {
@@ -224,7 +225,8 @@ const DB = [
     stages:[
       {name:'Larva',fly:'Brassie / Blood Midge',sizes:'18–26',colors:['Red','Olive','Black'],waterLevel:'🪨 Bottom — slow currents near bed',desc:'Slim, segmented larva. Year-round in slow currents and still water.'},
       {name:'Pupa',fly:'Zebra Midge / Mercury Midge',sizes:'18–26',colors:['Black','Red','Olive'],waterLevel:'〰️ Surface film — suspended just below',desc:'Hangs just below film. Most critical stage for selective trout.'},
-      {name:'Adult',fly:"Griffith's Gnat",sizes:'18–28',colors:['Black','Gray'],waterLevel:'🏄 Top water — tiny flies on surface',desc:"Tiny flies on surface, often in clusters. Difficult to see — use high-vis post."}
+      {name:'Adult',fly:"Griffith's Gnat",sizes:'18–28',colors:['Black','Gray'],waterLevel:'🏄 Top water — tiny flies on surface',desc:"Tiny flies on surface, often in clusters. Difficult to see — use high-vis post."},
+      {name:'Buffalo Midge (Emerger)',fly:'Mother Shucker',sizes:'16–20',colors:['Black','Gray','Brown'],waterLevel:'〰️ Surface film — stuck in shuck during emergence',desc:'Large midge with a distinctive hump on its back. Hatches midday (12:30–1:30pm) on the Provo River, March–April. Fish are keyed in on the trailing shuck. One of the best dry fly hatches in Utah.'}
     ],
     topFlies:[
       {name:'Zebra Midge',style:'Pupa/Nymph',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Beadhead',tip:'Fish 18 inches below indicator in tailwaters. The single most important tailwater fly.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'},
@@ -235,7 +237,10 @@ const DB = [
       {name:'WD-40',style:'Emerger/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:"Deadly during BWO and midge emergences. Fish in the film when trout are sipping and you can't figure out what they're eating.",photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-emerger.jpg'},
       {name:'Rainbow Warrior',style:'Pupa/Attractor',sizes:'18–22',hook:'Midge/Jig nymph',confidence:'High',weight:'Tungsten bead',tip:"Lance Egan's flashy midge pupa — the pearl body and pink legs make it irresistible to tailwater trout. Fish it as the top fly in a two-fly nymph rig. Effective year-round but especially winter and early spring.",photo:'https://norrik.com/wp-content/uploads/2024/07/rainbow-warrior-fly-small.jpg'},
       {name:'Top Secret Midge',style:'Pupa/Emerger',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Beadhead or unweighted',tip:"Pat Dorsey's South Platte special. Thread body with a touch of sparkle — fish it last in a three-fly rig behind a Copper John and Mercury Midge. Unweighted version excels in the film.",photo:'https://norrik.com/wp-content/uploads/2024/07/serendipity-fly-small.jpg'},
-      {name:'Black Beauty',style:'Larva/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Slim black thread body with a thin wire rib — nearly invisible but incredibly effective on pressured tailwaters. A go-to when trout are refusing everything else. Best in clear, low water conditions.',photo:'https://norrik.com/wp-content/uploads/2024/07/soft-hackle-nymph-small.jpg'}
+      {name:'Black Beauty',style:'Larva/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Slim black thread body with a thin wire rib — nearly invisible but incredibly effective on pressured tailwaters. A go-to when trout are refusing everything else. Best in clear, low water conditions.',photo:'https://norrik.com/wp-content/uploads/2024/07/soft-hackle-nymph-small.jpg'},
+      {name:'Mother Shucker (Black)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'The go-to fly for the Buffalo Midge hatch on the Provo River. Fish dead drift in the film — trout key on the trailing shuck. Black is the most common color. Use 6–7x tippet.',photo:'https://norrik.com/wp-content/uploads/2024/07/griffiths-gnat-small.jpg'},
+      {name:'Mother Shucker (Gray)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray version of the Mother Shucker — often the best color on overcast days or in clear water. Fish single in the film or as the lead fly with a small BWO dropper behind it.',photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-midge-small.jpg'},
+      {name:'Mother Shucker (Brown)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Brown version shines in warmer spring conditions and later in the hatch season (March–April). Fish dead drift with a drag-free presentation. A Provo River staple.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
   },
   // ─── TERRESTRIALS ────────────────────────────────────────────────────────
@@ -354,6 +359,104 @@ const DB = [
       {name:'Nuke Egg',style:'Egg',sizes:'10–14',hook:'Egg hook',confidence:'High',weight:'None',tip:'Smaller, more realistic profile than a Glo Bug. Excellent on pressured tailwaters where trout see eggs all day.',photo:'https://norrik.com/wp-content/uploads/2024/07/classic-mayfly-emerger-small.jpg'},
       {name:'Cluster Egg',style:'Egg',sizes:'8–12',hook:'Egg hook',confidence:'High',weight:'None',tip:'Multiple eggs clustered together — imitates a drifting egg mass. Highly visible and productive in stained or off-color water. Deadly for steelhead and Great Lakes trout in fall.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-egg-fly-small.jpg'},
       {name:'Egg-Sucking Leech',style:'Egg/Streamer',sizes:'4–8',hook:'Streamer',confidence:'High',weight:'Tungsten bead',tip:"Double threat — egg on the nose, leech on the body. Dominant Great Lakes tributary fly. Also one of the best steelhead patterns you'll throw.",photo:'https://norrik.com/wp-content/uploads/2024/07/cheech-leech-streamer-small.jpg'}
+    ]
+  },
+  // ─── GREEN DRAKE ─────────────────────────────────────────────────────────
+  {
+    id:18, order:'mayfly', emoji:'🪲',
+    name:'Green Drake', latin:'Drunella grandis',
+    seasons:['spring','summer'], peakMonths:'Jun–Jul',
+    hatchTime:'Midday to afternoon', waterTemp:'50–62°F',
+    waterType:'Spring creeks, freestones, Henry\'s Fork, Madison, Fryingpan',
+    description:"The Green Drake is the most anticipated mayfly hatch in the West. These large mayflies (size 10–12) trigger explosive surface feeding from the biggest trout in the river. The Henry's Fork Railroad Ranch section is the most famous venue — fish that ignore everything else will throw caution to the wind for a well-presented Green Drake. Cloudy days produce the strongest hatches.",
+    stages:[
+      {name:'Nymph',fly:'Rubber Legs / Hare\'s Ear',sizes:'10–14',colors:['Olive','Brown'],waterLevel:'🪨 Bottom — slow to moderate currents',desc:'Clinger-style nymph. Crawls from substrate to the surface. Begin fishing nymphs 30–60 min before the hatch.'},
+      {name:'Emerger',fly:'Cripple / Sparkle Dun (Olive)',sizes:'10–14',colors:['Olive body','Gray wing'],waterLevel:'〰️ Surface film — stuck during emergence',desc:'Trout key on cripples and stuck emergers more than perfect duns. Most important stage.'},
+      {name:'Dun',fly:'Paradrake / Comparadun (Olive)',sizes:'10–14',colors:['Olive','Gray wing'],waterLevel:'🏄 Top water — riding high on surface',desc:'Large upright wing. Drifts slowly in smooth water. Highly selective fish will refuse a bad drift.'},
+      {name:'Spinner',fly:'Olive Spinner',sizes:'10–14',colors:['Olive','Clear spent wings'],waterLevel:'🏄 Top water — spinner fall in evening',desc:'Spent spinners fall flat on the water. Fish focus on slow backwaters and edges.'}
+    ],
+    topFlies:[
+      {name:'Paradrake (Olive)',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:"Al Troth's Paradrake is the go-to Green Drake dry on the Henry's Fork. The extended elk hair body and parachute post make it float well and land softly on flat water. Use 5X tippet minimum.",photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-adams-small.jpg'},
+      {name:'Comparadun (Olive)',style:'Dry',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Low-riding deer hair wing sits in the film. More realistic profile than a parachute. Excellent for selective fish on spring creeks.',photo:'https://norrik.com/wp-content/uploads/2024/07/sparkle-dun-small.jpg'},
+      {name:'Green Drake Cripple',style:'Emerger',sizes:'10–14',hook:'Dry fly',confidence:'High',weight:'None',tip:'Imitates a stuck or deformed emerger — the most vulnerable stage. Trout preferentially eat cripples during heavy hatches. Fish in or just below the film.',photo:'https://norrik.com/wp-content/uploads/2024/07/cripple-fly-small.jpg'},
+      {name:'Olive Hare\'s Ear',style:'Nymph',sizes:'10–14',hook:'Standard nymph',confidence:'Med',weight:'Beadhead',tip:'General olive nymph before the hatch. Dead drift deep in the hour before flies appear on the surface.',photo:'https://norrik.com/wp-content/uploads/2024/07/hares-ear-nymph-small.jpg'}
+    ]
+  },
+  // ─── BROWN DRAKE ─────────────────────────────────────────────────────────
+  {
+    id:19, order:'mayfly', emoji:'🪲',
+    name:'Brown Drake', latin:'Ephemera simulans',
+    seasons:['summer'], peakMonths:'Jun–Jul',
+    hatchTime:'Evening, often after dark', waterTemp:'58–68°F',
+    waterType:'Spring creeks, slow meadow runs, Henry\'s Fork, Madison',
+    description:"Brown Drakes hatch in the evening — sometimes well after dark — bringing the largest trout in the river to the surface in calm, slow water. The Henry's Fork and Madison are legendary for this hatch. Brown Drakes are large (size 10–12), easy to see on the water, and trigger aggressive takes from fish that rarely show themselves during daylight.",
+    stages:[
+      {name:'Nymph',fly:'Brown Drake Nymph',sizes:'10–14',colors:['Brown','Tan'],waterLevel:'🪨 Bottom — slow sandy or silty substrate',desc:'Burrowing nymph. Lives in soft substrate. Swim toward surface at dusk.'},
+      {name:'Dun',fly:'Brown Drake Comparadun',sizes:'10–12',colors:['Brown','Yellow belly','Mottled wing'],waterLevel:'🏄 Top water — evening hatch',desc:'Large brown mayfly riding the surface at dusk. One of the most exciting dry fly opportunities of the year.'},
+      {name:'Spinner',fly:'Brown Drake Spinner',sizes:'10–12',colors:['Rusty brown','Clear spent wings'],waterLevel:'🏄 Top water — spinner fall after dark',desc:'Spinner falls happen in darkness. Fish by sound and by knowing where fish are holding. One of the most challenging and rewarding situations in fly fishing.'}
+    ],
+    topFlies:[
+      {name:'Brown Drake Comparadun',style:'Dry',sizes:'10–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Low profile rides the film. Tie with a mottled brown/tan deer hair wing. Fish from last light onward — bring a headlamp.',photo:'https://norrik.com/wp-content/uploads/2024/07/sparkle-dun-small.jpg'},
+      {name:'Brown Drake Spinner',style:'Spinner/Dry',sizes:'10–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'Flat spent wings made of poly or CDC. Fish after dark in calm water. The strike is audible — wait for it before setting.',photo:'https://norrik.com/wp-content/uploads/2024/07/rusty-spinner-small.jpg'},
+      {name:'Brown Drake Parachute',style:'Dry',sizes:'10–12',hook:'Dry fly',confidence:'High',weight:'None',tip:'High-visibility parachute post helps you track the fly in low light. Brown body with ginger hackle. A must-have for the evening hatch.',photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-adams-small.jpg'}
+    ]
+  },
+  // ─── MARCH BROWN ─────────────────────────────────────────────────────────
+  {
+    id:20, order:'mayfly', emoji:'🪲',
+    name:'March Brown', latin:'Rhithrogena morrisoni / Maccaffertium vicarium',
+    seasons:['spring'], peakMonths:'Mar–May',
+    hatchTime:'Afternoon', waterTemp:'45–55°F',
+    waterType:'Freestones, riffles, western and eastern rivers',
+    description:"One of the first significant hatches of spring on both coasts. Western March Browns (Rhithrogena) hatch in fast riffles on rivers like the Henry's Fork and Yakima; eastern March Browns (Maccaffertium) are the classic Catskill hatch. Both produce excellent dry fly fishing when water temperatures are still cold. A great indicator that the season is starting.",
+    stages:[
+      {name:'Nymph',fly:'Hare\'s Ear / Pheasant Tail',sizes:'12–16',colors:['Brown','Olive-brown'],waterLevel:'🪨 Bottom — fast riffles',desc:'Clinger nymph. Fishes well through winter and into the hatch.'},
+      {name:'Emerger',fly:'March Brown Soft Hackle',sizes:'12–16',colors:['Brown','Amber'],waterLevel:'〰️ Surface film — swinging in current',desc:'Swing a soft hackle through riffles during emergence. Deadly tactic.'},
+      {name:'Dun',fly:'March Brown Comparadun / Adams',sizes:'12–16',colors:['Brown','Gray wing'],waterLevel:'🏄 Top water — afternoon hatch in riffles',desc:'Medium-large dun. Fish look up aggressively early in the season. One of the first chances for dry fly fishing each year.'}
+    ],
+    topFlies:[
+      {name:'March Brown Comparadun',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'Low profile works well in the riffles where March Browns hatch. Mottled brown body with gray deer hair wing. Fish with a reach cast to get a long drag-free drift.',photo:'https://norrik.com/wp-content/uploads/2024/07/sparkle-dun-small.jpg'},
+      {name:'March Brown Soft Hackle',style:'Wet/Emerger',sizes:'12–16',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'Swing through riffle tailouts during emergence. The most productive tactic early in the season when fish aren\'t yet committed to the surface.',photo:'https://norrik.com/wp-content/uploads/2024/07/soft-hackle-nymph-small.jpg'},
+      {name:'Adams (Size 14)',style:'Dry',sizes:'12–16',hook:'Dry fly',confidence:'High',weight:'None',tip:'The Parachute Adams in size 14 is a dead ringer for a March Brown dun. Always have some in your box for the early season.',photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-adams-small.jpg'}
+    ]
+  },
+  // ─── CALLIBAETIS ─────────────────────────────────────────────────────────
+  {
+    id:21, order:'mayfly', emoji:'🪲',
+    name:'Callibaetis (Speckle-Wing Quill)', latin:'Callibaetis spp.',
+    seasons:['spring','summer','fall'], peakMonths:'May–Sep',
+    hatchTime:'Midmorning', waterTemp:'50–65°F',
+    waterType:'Still water, lakes, slow spring creeks, reservoirs',
+    description:"Callibaetis are the most important mayfly for stillwater fly fishing in the West. Found in lakes, ponds, and slow spring creeks from the Rockies to the Pacific Northwest, they produce classic midge-style rising fish in flat water. The speckled wing makes them easy to identify. A key hatch on western reservoirs, the Henry's Fork, and high mountain lakes.",
+    stages:[
+      {name:'Nymph',fly:'Pheasant Tail / Callibaetis Nymph',sizes:'14–18',colors:['Olive','Gray-brown'],waterLevel:'〰️ Mid-column — slow retrieve toward surface',desc:'Active swimmer. Strip slowly toward the surface or hang under an indicator near weed edges.'},
+      {name:'Emerger',fly:'CDC Callibaetis Emerger',sizes:'14–18',colors:['Olive','Gray'],waterLevel:'〰️ Surface film — during emergence',desc:'Fish in the film during the hatch. Trout key on emergers before duns.'},
+      {name:'Dun',fly:'Comparadun / Sparkle Dun (Gray)',sizes:'14–18',colors:['Gray','Speckled wing'],waterLevel:'🏄 Top water — midmorning hatch',desc:'Gray body with distinctive speckled wing. Fish in calm, flat water with light tippet.'},
+      {name:'Spinner',fly:'Callibaetis Spinner',sizes:'14–18',colors:['Gray','Clear spent wings'],waterLevel:'🏄 Top water — late morning spinner fall',desc:'Spinner falls happen shortly after the dun hatch. Fish flat water with spent-wing patterns.'}
+    ],
+    topFlies:[
+      {name:'Callibaetis Comparadun',style:'Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray deer hair wing with olive or gray body. Essential for still water and Henry\'s Fork fishing. Use 5X–6X tippet and a long leader on flat water.',photo:'https://norrik.com/wp-content/uploads/2024/07/sparkle-dun-small.jpg'},
+      {name:'Pheasant Tail (Unweighted)',style:'Nymph',sizes:'14–18',hook:'Standard nymph',confidence:'High',weight:'Unweighted',tip:'The classic Callibaetis nymph imitation. Strip slowly or hang under an indicator in still water. Olive PT variation is especially effective.',photo:'https://norrik.com/wp-content/uploads/2024/07/pheasant-tail-nymph-small.jpg'},
+      {name:'Callibaetis Spinner',style:'Spinner/Dry',sizes:'14–18',hook:'Dry fly',confidence:'High',weight:'None',tip:'Spent spinner with clear poly wings. Fish flat calm water after the dun hatch. One of the most underutilized patterns for stillwater trout.',photo:'https://norrik.com/wp-content/uploads/2024/07/classic-mayfly-emerger-small.jpg'}
+    ]
+  },
+  // ─── SOW BUG / SCUD ──────────────────────────────────────────────────────
+  {
+    id:22, order:'attractor', emoji:'🦐',
+    name:'Sow Bug & Scud', latin:'Asellus spp. / Gammarus spp.',
+    seasons:['spring','summer','fall','winter'], peakMonths:'Year-round',
+    hatchTime:'Year-round — not a hatch, constant food source', waterTemp:'33–75°F',
+    waterType:'Spring creeks, tailwaters, weedy rivers — Green River, Bighorn, San Juan, Provo',
+    description:"Sow bugs (aquatic isopods) and scuds (freshwater shrimp) are crustaceans, not insects — but they're among the most important food sources in many tailwaters. On rivers like the Green River, Bighorn, and San Juan, trout eat sow bugs and scuds year-round. They don't hatch, so trout are always looking for them near the bottom and in weed beds. Often overlooked by beginners but critical knowledge for tailwater fishing.",
+    stages:[
+      {name:'Sow Bug',fly:'Tailwater Sow Bug / Rojo Midge',sizes:'14–18',colors:['Gray','Olive-gray','Pink'],waterLevel:'🪨 Bottom — drifting along riverbed and in weeds',desc:'Flat-bodied aquatic isopod. Lives in moss and algae. Dead drift tight to the bottom year-round.'},
+      {name:'Scud',fly:'Olive/Orange Scud',sizes:'12–18',colors:['Olive','Gray','Orange (dead)'],waterLevel:'🪨 Bottom — near weed beds and structure',desc:'Freshwater shrimp. Curls when dead (orange/pink). Trout eat both living (olive/gray) and dead (orange) scuds.'}
+    ],
+    topFlies:[
+      {name:'Tailwater Sow Bug',style:'Nymph/Crustacean',sizes:'14–18',hook:'Standard nymph',confidence:'High',weight:'Unweighted or lightly weighted',tip:'The essential pattern on the Green River and Bighorn. Gray or olive-gray thread body, flat profile. Dead drift deep on a long leader. An absolute must-have on any western tailwater.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
+      {name:'Scud (Olive)',style:'Nymph/Crustacean',sizes:'12–18',hook:'Scud hook',confidence:'High',weight:'Beadhead or unweighted',tip:'Olive scuds imitate living freshwater shrimp. Fish near weed beds and undercut banks. A Bighorn and San Juan staple year-round.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
+      {name:'Scud (Orange)',style:'Nymph/Crustacean',sizes:'12–16',hook:'Scud hook',confidence:'High',weight:'Beadhead',tip:'Dead/dying scuds turn orange. This is often more visible to trout. On the Green River and Provo, an orange scud fished deep can be the best fly in the box on slow days.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-egg-fly-small.jpg'},
+      {name:'Rojo Midge',style:'Nymph/Midge',sizes:'18–22',hook:'Midge',confidence:'High',weight:'Beadhead',tip:"Jay Zimmerman's red bead midge is deadly on the South Platte, Green River, and Provo. Fishes like a sow bug and a midge larva simultaneously. Always have some in your box.",photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
   }
 ];
