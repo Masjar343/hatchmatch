@@ -1064,7 +1064,7 @@ function InsectDetail({ins}) {
           return (
             <div key={s.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
               <div style={{width:'100%', height:130, background:'#1a2e1a', position:'relative', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
-                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'contain', padding:'4px', background:'#f5f2eb', transformOrigin:'center'}}/>
+                <ImgWithFallback src={photo} flyName={s.fly} style={{width:'100%', height:'100%', objectFit:'cover', transformOrigin:'center center'}}/>
                 <div style={{position:'absolute', top:8, left:8, background:'rgba(0,0,0,0.62)', color:'white', fontSize:'0.58rem', fontWeight:700, letterSpacing:'0.1em', textTransform:'uppercase', padding:'3px 8px', borderRadius:5}}>{s.name}</div>
               </div>
               <div style={{padding:'12px 13px'}}>
@@ -1087,8 +1087,8 @@ function InsectDetail({ins}) {
       <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(160px,1fr))', gap:10}}>
         {ins.topFlies.map(f => (
           <div key={f.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
-            <div style={{width:'100%', height:120, background:'#f5f2eb', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
-              <ImgWithFallback src={f.photo} flyName={f.name} style={{width:'100%', height:'100%', objectFit:'contain', padding:'6px', transformOrigin:'center'}}/>
+            <div style={{width:'100%', height:140, background:'#f5f2eb', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
+              <ImgWithFallback src={f.photo} flyName={f.name} style={{width:'95%', height:'95%', objectFit:'contain', transformOrigin:'center'}}/>
             </div>
             <div style={{padding:'12px 14px'}}>
               <div style={{fontSize:'0.68rem', fontWeight:700, marginBottom:5, color: f.confidence==='High' ? '#4a9a4a' : C.amber}}>{f.confidence==='High' ? 'High confidence' : 'Med confidence'}</div>
