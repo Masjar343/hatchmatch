@@ -1058,7 +1058,7 @@ function InsectDetail({ins}) {
       </div>
 
       <h3 style={{fontFamily:'Georgia,serif', fontSize:'1.05rem', marginBottom:14, color:C.forest}}>Life Stages and Imitations</h3>
-      <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(160px,1fr))', gap:10, marginBottom:28}}>
+      <div style={{display:'grid', gridTemplateColumns:'repeat(2,1fr)', gap:10, marginBottom:28}}>
         {ins.stages.map(s => {
           const photo = stagePhoto(s.fly);
           return (
@@ -1084,7 +1084,7 @@ function InsectDetail({ins}) {
       </div>
 
       <h3 style={{fontFamily:'Georgia,serif', fontSize:'1.05rem', marginBottom:14, color:C.forest}}>Top Fly Patterns</h3>
-      <div style={{display:'grid', gridTemplateColumns:'repeat(auto-fill,minmax(160px,1fr))', gap:10}}>
+      <div style={{display:'grid', gridTemplateColumns:'repeat(2,1fr)', gap:10}}>
         {ins.topFlies.map(f => (
           <div key={f.name} style={{background:'white', borderRadius:12, overflow:'hidden', border:'1px solid rgba(0,0,0,0.07)', boxShadow:'0 1px 4px rgba(0,0,0,0.05)'}}>
             <div style={{width:'100%', height:140, background:'#f5f2eb', overflow:'hidden', display:'flex', alignItems:'center', justifyContent:'center'}}>
