@@ -234,11 +234,11 @@ const DB = [
       {name:"Griffith's Gnat",style:'Dry',sizes:'18–24',hook:'Dry fly',confidence:'High',weight:'None',tip:'Mimics a midge cluster on the surface. Essential tailwater dry fly.',photo:'https://norrik.com/wp-content/uploads/2024/07/griffiths-gnat-small.jpg'},
       {name:'Brassie',style:'Larva',sizes:'18–24',hook:'Midge',confidence:'High',weight:'Wire body',tip:'Copper wire body is heavy and segmented. Pair with a Zebra Midge dropper.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
       {name:'Blood Midge',style:'Larva',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Bright red thread body imitates blood midge larvae (Chironomus). Essential in stillwater and slow tailwaters. Fish on a long dropper below a tiny indicator near the bottom.',photo:'https://norrik.com/wp-content/uploads/2024/07/san-juan-worm.jpg'},
-      {name:'WD-40',style:'Emerger/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:"Deadly during BWO and midge emergences. Fish in the film when trout are sipping and you can't figure out what they're eating.",photo:'https://norrik.com/wp-content/uploads/2024/07/hendrickson-emerger-small.jpg'},
+      {name:'WD-40',style:'Emerger/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:"Deadly during BWO and midge emergences. Fish in the film when trout are sipping and you can't figure out what they're eating.",photo:'https://norrik.com/wp-content/uploads/2024/07/soft-hackle-emerger-small.jpg'},
       {name:'Rainbow Warrior',style:'Pupa/Attractor',sizes:'18–22',hook:'Midge/Jig nymph',confidence:'High',weight:'Tungsten bead',tip:"Lance Egan's flashy midge pupa — the pearl body and pink legs make it irresistible to tailwater trout. Fish it as the top fly in a two-fly nymph rig. Effective year-round but especially winter and early spring.",photo:'https://norrik.com/wp-content/uploads/2024/07/rainbow-warrior-fly-small.jpg'},
       {name:'Top Secret Midge',style:'Pupa/Emerger',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Beadhead or unweighted',tip:"Pat Dorsey's South Platte special. Thread body with a touch of sparkle — fish it last in a three-fly rig behind a Copper John and Mercury Midge. Unweighted version excels in the film.",photo:'https://norrik.com/wp-content/uploads/2024/07/serendipity-fly-small.jpg'},
       {name:'Black Beauty',style:'Larva/Pupa',sizes:'20–26',hook:'Midge',confidence:'High',weight:'Unweighted',tip:'Slim black thread body with a thin wire rib — nearly invisible but incredibly effective on pressured tailwaters. A go-to when trout are refusing everything else. Best in clear, low water conditions.',photo:'https://norrik.com/wp-content/uploads/2024/07/soft-hackle-nymph-small.jpg'},
-      {name:'Mother Shucker (Black)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'The go-to fly for the Buffalo Midge hatch on the Provo River. Fish dead drift in the film — trout key on the trailing shuck. Black is the most common color. Use 6–7x tippet.',photo:'https://norrik.com/wp-content/uploads/2024/07/griffiths-gnat-small.jpg'},
+      {name:'Mother Shucker (Black)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'The go-to fly for the Buffalo Midge hatch on the Provo River. Fish dead drift in the film — trout key on the trailing shuck. Black is the most common color. Use 6–7x tippet.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'},
       {name:'Mother Shucker (Gray)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Gray version of the Mother Shucker — often the best color on overcast days or in clear water. Fish single in the film or as the lead fly with a small BWO dropper behind it.',photo:'https://norrik.com/wp-content/uploads/2024/07/parachute-midge-small.jpg'},
       {name:'Mother Shucker (Brown)',style:'Emerger/Dry',sizes:'16–20',hook:'Dry fly',confidence:'High',weight:'None',tip:'Brown version shines in warmer spring conditions and later in the hatch season (March–April). Fish dead drift with a drag-free presentation. A Provo River staple.',photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
@@ -454,8 +454,8 @@ const DB = [
     ],
     topFlies:[
       {name:'Tailwater Sow Bug',style:'Nymph/Crustacean',sizes:'14–18',hook:'Standard nymph',confidence:'High',weight:'Unweighted or lightly weighted',tip:'The essential pattern on the Green River and Bighorn. Gray or olive-gray thread body, flat profile. Dead drift deep on a long leader. An absolute must-have on any western tailwater.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
-      {name:'Scud (Olive)',style:'Nymph/Crustacean',sizes:'12–18',hook:'Scud hook',confidence:'High',weight:'Beadhead or unweighted',tip:'Olive scuds imitate living freshwater shrimp. Fish near weed beds and undercut banks. A Bighorn and San Juan staple year-round.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
-      {name:'Scud (Orange)',style:'Nymph/Crustacean',sizes:'12–16',hook:'Scud hook',confidence:'High',weight:'Beadhead',tip:'Dead/dying scuds turn orange. This is often more visible to trout. On the Green River and Provo, an orange scud fished deep can be the best fly in the box on slow days.',photo:'https://norrik.com/wp-content/uploads/2024/07/salmon-egg-fly-small.jpg'},
+      {name:'Scud (Olive)',style:'Nymph/Crustacean',sizes:'12–18',hook:'Scud hook',confidence:'High',weight:'Beadhead or unweighted',tip:'Olive scuds imitate living freshwater shrimp. Fish near weed beds and undercut banks. A Bighorn and San Juan staple year-round.',photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Scud_fly_pattern.jpg/320px-Scud_fly_pattern.jpg'},
+      {name:'Scud (Orange)',style:'Nymph/Crustacean',sizes:'12–16',hook:'Scud hook',confidence:'High',weight:'Beadhead',tip:'Dead/dying scuds turn orange. This is often more visible to trout. On the Green River and Provo, an orange scud fished deep can be the best fly in the box on slow days.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-orange-small.jpg'},
       {name:'Rojo Midge',style:'Nymph/Midge',sizes:'18–22',hook:'Midge',confidence:'High',weight:'Beadhead',tip:"Jay Zimmerman's red bead midge is deadly on the South Platte, Green River, and Provo. Fishes like a sow bug and a midge larva simultaneously. Always have some in your box.",photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
   }
@@ -469,6 +469,32 @@ const C = {
 };
 
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
+
+// Real insect photos (Wikimedia Commons)
+const INSECT_PHOTOS = {
+  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // BWO
+  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg', // PMD
+  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg', // Sulphur
+  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Drunella_grandis.jpg/320px-Drunella_grandis.jpg', // Green Drake
+  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg', // Trico
+  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg', // Hendrickson
+  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Drunella_grandis.jpg/320px-Drunella_grandis.jpg', // Green Drake dup
+  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg', // Brown Drake
+  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg', // March Brown
+  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // Callibaetis
+  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Brachycentrus_americanus.jpg/320px-Brachycentrus_americanus.jpg', // Caddis
+  16: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Brachycentrus_americanus.jpg/320px-Brachycentrus_americanus.jpg', // Oct Caddis
+  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg', // Salmonfly
+  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg', // Golden Stone
+  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg', // Midge
+  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grasshopper_on_a_rock.jpg/320px-Grasshopper_on_a_rock.jpg', // Hopper
+  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Camponotus_flavomarginatus_ant.jpg/320px-Camponotus_flavomarginatus_ant.jpg', // Ant
+  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg/320px-Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg', // Streamer
+  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg/320px-Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg', // Leech
+  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // Attractor
+  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Salmon_eggs.jpg/320px-Salmon_eggs.jpg', // Eggs
+  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Scud_fly_pattern.jpg/320px-Scud_fly_pattern.jpg', // Sow Bug
+};
 const SEASON_ICONS = { spring:'Sp', summer:'Su', fall:'Fa', winter:'Wi' };
 
 function CameraIcon({size=20,color='currentColor'}) {
@@ -845,50 +871,41 @@ export default function HatchMatch() {
       )}
 
       {view === 'library' && (
-        <div style={{display:'flex', minHeight:'calc(100vh - 120px)'}}>
-          <div className="dsb" style={{width:250, flexShrink:0, background:C.sand, borderRight:'1px solid rgba(0,0,0,0.08)', overflowY:'auto'}}>
-            {Object.entries(groups).map(([ord, insects]) => (
-              <div key={ord}>
-                <div style={{padding:'10px 14px 6px', fontSize:'0.58rem', letterSpacing:'0.14em', textTransform:'uppercase', color:C.stone, fontWeight:700, borderBottom:'1px solid rgba(0,0,0,0.06)'}}>{ORDER_LABELS[ord]}</div>
+        <div style={{padding:'12px 14px 80px', overflowY:'auto'}}>
+          {filtered.length === 0 && <div style={{padding:'20px 4px', color:C.stone, fontSize:'0.82rem'}}>No results.</div>}
+          {Object.entries(groups).map(([ord, insects]) => (
+            <div key={ord} style={{marginBottom:28}}>
+              <div style={{fontSize:'0.6rem', letterSpacing:'0.14em', textTransform:'uppercase', color:C.stone, fontWeight:700, marginBottom:10, paddingLeft:2}}>{ORDER_LABELS[ord]}</div>
+              <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10}}>
                 {insects.map(ins => (
                   <div
                     key={ins.id}
                     onClick={() => selectInsect(ins.id)}
-                    style={{padding:'11px 14px', cursor:'pointer', borderLeft: selected===ins.id ? '3px solid ' + C.fern : '3px solid transparent', background: selected===ins.id ? 'white' : 'transparent', borderBottom:'1px solid rgba(0,0,0,0.04)'}}
+                    style={{background:'white', borderRadius:14, overflow:'hidden', boxShadow:'0 2px 8px rgba(0,0,0,0.07)', cursor:'pointer', border: selected===ins.id ? '2px solid ' + C.fern : '2px solid transparent'}}
                   >
-                    <div style={{fontSize:'0.84rem', fontWeight:600}}>{ins.name}</div>
-                    <div style={{fontSize:'0.68rem', color:C.stone, fontStyle:'italic'}}>{ins.latin}</div>
+                    <div style={{height:90, background:C.forest, overflow:'hidden'}}>
+                      {INSECT_PHOTOS[ins.id] ? (
+                        <img
+                          src={INSECT_PHOTOS[ins.id]}
+                          alt={ins.name}
+                          style={{width:'100%', height:'100%', objectFit:'cover'}}
+                          onError={e => { e.target.style.display='none'; }}
+                        />
+                      ) : (
+                        <div style={{width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center'}}>
+                          <span style={{fontSize:'0.65rem', color:'rgba(255,255,255,0.3)', fontStyle:'italic'}}>No photo</span>
+                        </div>
+                      )}
+                    </div>
+                    <div style={{padding:'8px 10px 10px'}}>
+                      <div style={{fontSize:'0.78rem', fontWeight:700, color:C.forest, lineHeight:1.3}}>{ins.name}</div>
+                      <div style={{fontSize:'0.6rem', color:C.stone, fontStyle:'italic', marginTop:2}}>{ins.latin}</div>
+                    </div>
                   </div>
                 ))}
               </div>
-            ))}
-            {filtered.length === 0 && <div style={{padding:'20px 14px', color:C.stone, fontSize:'0.82rem'}}>No results.</div>}
-          </div>
-
-          <div style={{flex:1, minWidth:0, display:'flex', flexDirection:'column'}}>
-            <div className="mch" style={{overflowX:'auto', background:C.sand, borderBottom:'1px solid rgba(0,0,0,0.08)', padding:'10px 14px', gap:8, scrollbarWidth:'none', WebkitOverflowScrolling:'touch', flexShrink:0}}>
-              {filtered.map(ins => (
-                <div
-                  key={ins.id}
-                  onClick={() => selectInsect(ins.id)}
-                  style={{flexShrink:0, background: selected===ins.id ? C.fern : 'white', border: '2px solid ' + (selected===ins.id ? C.fern : 'rgba(0,0,0,0.08)'), borderRadius:20, padding:'6px 14px', cursor:'pointer', fontSize:'0.8rem', fontWeight:600, color: selected===ins.id ? 'white' : C.forest, whiteSpace:'nowrap'}}
-                >
-                  {ins.name}
-                </div>
-              ))}
             </div>
-            <div style={{flex:1, padding:'24px 20px', overflowY:'auto'}}>
-              {selectedIns ? (
-                <InsectDetail ins={selectedIns}/>
-              ) : (
-                <div style={{display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'80px 20px', textAlign:'center'}}>
-                  <BookIcon size={36} color={C.sand}/>
-                  <div style={{fontFamily:'Georgia,serif', fontSize:'1.1rem', color:C.forest, marginTop:16, marginBottom:8}}>Select an insect</div>
-                  <p style={{fontSize:'0.84rem', color:C.stone, lineHeight:1.6, maxWidth:240, margin:0}}>Choose from the list to explore life stages, fly patterns, and presentation tips.</p>
-                </div>
-              )}
-            </div>
-          </div>
+          ))}
         </div>
       )}
 
