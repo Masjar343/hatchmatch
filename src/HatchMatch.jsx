@@ -471,38 +471,39 @@ const C = {
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
 // Real insect photos (iNaturalist - stable observation photos)
+const _wiki = (path) => `https://wsrv.nl/?url=https://upload.wikimedia.org/wikipedia/commons/${path}&w=320&h=200&fit=cover&output=jpg`;
 const INSECT_PHOTOS = {
   // Mayflies
-  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Baetis_rhodani_crop.jpg/320px-Baetis_rhodani_crop.jpg',         // BWO - Baetis
-  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ephemerella_inermis.jpg/320px-Ephemerella_inermis.jpg',          // PMD - Ephemerella inermis
-  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg',        // Sulphur
-  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',                // Green Drake - Drunella grandis
-  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg',      // Trico
-  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg',       // Hendrickson
-  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',                // Green Drake (dup)
-  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg',             // Brown Drake
-  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rhithrogena_germanica.jpg/320px-Rhithrogena_germanica.jpg',     // March Brown
-  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Callibaetis_sp.jpg/320px-Callibaetis_sp.jpg',                   // Callibaetis
+  1:  _wiki('2/2b/Baetis_rhodani_crop.jpg'),           // BWO
+  2:  _wiki('5/5e/Ephemerella_inermis.jpg'),            // PMD
+  17: _wiki('9/9e/Ephemerella_dorothea.jpg'),           // Sulphur
+  3:  _wiki('a/a5/Drunella_grandis.jpg'),               // Green Drake
+  9:  _wiki('6/69/Tricorythodes_minutus.jpg'),           // Trico
+  10: _wiki('4/4c/Ephemerella_subvaria.jpg'),           // Hendrickson
+  18: _wiki('a/a5/Drunella_grandis.jpg'),               // Green Drake (dup)
+  19: _wiki('c/c1/Ephemera_simulans.jpg'),              // Brown Drake
+  20: _wiki('e/ef/Rhithrogena_germanica.jpg'),          // March Brown
+  21: _wiki('7/76/Callibaetis_sp.jpg'),                 // Callibaetis
   // Caddisflies
-  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Caddisfly_-_Trichoptera.jpg/320px-Caddisfly_-_Trichoptera.jpg', // Caddisfly
-  16: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dicosmoecus_gilvipes.jpg/320px-Dicosmoecus_gilvipes.jpg',       // October Caddis
+  4:  _wiki('f/f5/Caddisfly_-_Trichoptera.jpg'),        // Caddisfly
+  16: _wiki('3/3e/Dicosmoecus_gilvipes.jpg'),           // October Caddis
   // Stoneflies
-  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg', // Salmonfly
-  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg',     // Golden Stone
+  5:  _wiki('9/91/Pteronarcys_californica.jpg'),        // Salmonfly
+  6:  _wiki('1/1f/Hesperoperla_pacifica.jpg'),          // Golden Stone
   // Midges
-  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg',       // Midge
+  7:  _wiki('5/5f/Chironomus_plumosus2.jpg'),           // Midge
   // Terrestrials
-  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Melanoplus_differentialis.jpg/320px-Melanoplus_differentialis.jpg', // Grasshopper
-  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ant_head_LE.jpg/320px-Ant_head_LE.jpg',                         // Ant
+  8:  _wiki('1/18/Melanoplus_differentialis.jpg'),      // Grasshopper
+  11: _wiki('7/72/Ant_head_LE.jpg'),                    // Ant
   // Streamers / Leeches
-  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Oncorhynchus_mykiss.jpg/320px-Oncorhynchus_mykiss.jpg',         // Rainbow Trout (streamer)
-  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Macrobdella_decora.jpg/320px-Macrobdella_decora.jpg',           // Leech
+  12: _wiki('f/f0/Oncorhynchus_mykiss.jpg'),            // Rainbow Trout
+  13: _wiki('8/82/Macrobdella_decora.jpg'),             // Leech
   // Attractors
-  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Trout_fishing_fly.jpg/320px-Trout_fishing_fly.jpg',             // Attractor
+  14: _wiki('8/81/Trout_fishing_fly.jpg'),              // Attractor
   // Eggs
-  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Oncorhynchus_tshawytscha_eggs.jpg/320px-Oncorhynchus_tshawytscha_eggs.jpg', // Salmon eggs
+  15: _wiki('3/32/Oncorhynchus_tshawytscha_eggs.jpg'),  // Salmon eggs
   // Scud
-  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gammarus_pulex.jpg/320px-Gammarus_pulex.jpg',                   // Scud/Gammarus
+  22: _wiki('a/a9/Gammarus_pulex.jpg'),                 // Scud
 };
 const SEASON_ICONS = { spring:'Sp', summer:'Su', fall:'Fa', winter:'Wi' };
 
