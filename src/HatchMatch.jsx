@@ -454,7 +454,7 @@ const DB = [
     ],
     topFlies:[
       {name:'Tailwater Sow Bug',style:'Nymph/Crustacean',sizes:'14–18',hook:'Standard nymph',confidence:'High',weight:'Unweighted or lightly weighted',tip:'The essential pattern on the Green River and Bighorn. Gray or olive-gray thread body, flat profile. Dead drift deep on a long leader. An absolute must-have on any western tailwater.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-nymph-fly-small.jpg'},
-      {name:'Scud (Olive)',style:'Nymph/Crustacean',sizes:'12–18',hook:'Scud hook',confidence:'High',weight:'Beadhead or unweighted',tip:'Olive scuds imitate living freshwater shrimp. Fish near weed beds and undercut banks. A Bighorn and San Juan staple year-round.',photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Scud_fly_pattern.jpg/320px-Scud_fly_pattern.jpg'},
+      {name:'Scud (Olive)',style:'Nymph/Crustacean',sizes:'12–18',hook:'Scud hook',confidence:'High',weight:'Beadhead or unweighted',tip:'Olive scuds imitate living freshwater shrimp. Fish near weed beds and undercut banks. A Bighorn and San Juan staple year-round.',photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Scud_fly_pattern.jpg/320px-Scud_fly_pattern.jpg'},
       {name:'Scud (Orange)',style:'Nymph/Crustacean',sizes:'12–16',hook:'Scud hook',confidence:'High',weight:'Beadhead',tip:'Dead/dying scuds turn orange. This is often more visible to trout. On the Green River and Provo, an orange scud fished deep can be the best fly in the box on slow days.',photo:'https://norrik.com/wp-content/uploads/2024/07/scud-orange-small.jpg'},
       {name:'Rojo Midge',style:'Nymph/Midge',sizes:'18–22',hook:'Midge',confidence:'High',weight:'Beadhead',tip:"Jay Zimmerman's red bead midge is deadly on the South Platte, Green River, and Provo. Fishes like a sow bug and a midge larva simultaneously. Always have some in your box.",photo:'https://norrik.com/wp-content/uploads/2024/07/gray-midge-emerger-small.jpg'}
     ]
@@ -470,39 +470,39 @@ const C = {
 
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
-// Real insect photos (iNaturalist - stable observation photos)
+// Real insect photos — Wikimedia Commons (MD5-verified paths, v17)
 const INSECT_PHOTOS = {
   // Mayflies
-  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Baetis_rhodani_crop.jpg/320px-Baetis_rhodani_crop.jpg',
-  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ephemerella_inermis.jpg/320px-Ephemerella_inermis.jpg',
-  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg',
-  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',
-  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg',
-  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg',
-  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',
-  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg',
-  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rhithrogena_germanica.jpg/320px-Rhithrogena_germanica.jpg',
-  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Callibaetis_sp.jpg/320px-Callibaetis_sp.jpg',
+  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Baetis_rhodani_crop.jpg/320px-Baetis_rhodani_crop.jpg',
+  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Ephemerella_inermis.jpg/320px-Ephemerella_inermis.jpg',
+  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg',
+  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',
+  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg',
+  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg',
+  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',
+  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg',
+  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Rhithrogena_germanica.jpg/320px-Rhithrogena_germanica.jpg',
+  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Callibaetis_sp.jpg/320px-Callibaetis_sp.jpg',
   // Caddisflies
-  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Caddisfly_-_Trichoptera.jpg/320px-Caddisfly_-_Trichoptera.jpg',
+  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Caddisfly_-_Trichoptera.jpg/320px-Caddisfly_-_Trichoptera.jpg',
   16: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dicosmoecus_gilvipes.jpg/320px-Dicosmoecus_gilvipes.jpg',
   // Stoneflies
-  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg',
-  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg',
+  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg',
+  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg',
   // Midges
-  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg',
+  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg',
   // Terrestrials
-  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Melanoplus_differentialis.jpg/320px-Melanoplus_differentialis.jpg',
-  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ant_head_LE.jpg/320px-Ant_head_LE.jpg',
+  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Melanoplus_differentialis.jpg/320px-Melanoplus_differentialis.jpg',
+  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ant_head_LE.jpg/320px-Ant_head_LE.jpg',
   // Streamers / Leeches
-  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Oncorhynchus_mykiss.jpg/320px-Oncorhynchus_mykiss.jpg',
-  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Macrobdella_decora.jpg/320px-Macrobdella_decora.jpg',
+  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Oncorhynchus_mykiss.jpg/320px-Oncorhynchus_mykiss.jpg',
+  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Macrobdella_decora.jpg/320px-Macrobdella_decora.jpg',
   // Attractors
-  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Trout_fishing_fly.jpg/320px-Trout_fishing_fly.jpg',
+  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Trout_fishing_fly.jpg/320px-Trout_fishing_fly.jpg',
   // Eggs
-  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Oncorhynchus_tshawytscha_eggs.jpg/320px-Oncorhynchus_tshawytscha_eggs.jpg',
-  // Scud
-  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gammarus_pulex.jpg/320px-Gammarus_pulex.jpg',
+  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Oncorhynchus_tshawytscha_eggs.jpg/320px-Oncorhynchus_tshawytscha_eggs.jpg',
+  // Scud / Crustacean
+  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Gammarus_pulex.jpg/320px-Gammarus_pulex.jpg',
 };
 const SEASON_ICONS = { spring:'Sp', summer:'Su', fall:'Fa', winter:'Wi' };
 
@@ -564,17 +564,17 @@ function CloseIcon({size=14,color='currentColor'}) {
 
 
 
-// Verified photo URLs for each fly — fetched via corsproxy.io to bypass CORS
+// Fly pattern photos — Wikimedia Commons (MD5-verified paths, v17)
 const FLY_PHOTOS = {
-  'parachute adams':      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Parachute_Adams.jpg/320px-Parachute_Adams.jpg',
-  'sparkle dun':          'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Sparkle_Dun.jpg/320px-Sparkle_Dun.jpg',
-  'pheasant tail nymph':  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pheasant_tail_nymph.jpg/320px-Pheasant_tail_nymph.jpg',
-  'elk hair caddis':      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Elk_Hair_Caddis.jpg/320px-Elk_Hair_Caddis.jpg',
-  "griffith's gnat":      'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Griffiths_Gnat.jpg/320px-Griffiths_Gnat.jpg',
-  'hares ear nymph':      'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/GoldRibbedHaresEar.jpg/320px-GoldRibbedHaresEar.jpg',
-  'parachute green drake':'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Green_Drake_fly.jpg/320px-Green_Drake_fly.jpg',
-  'zebra midge':          'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Zebra_midge.jpg/320px-Zebra_midge.jpg',
-  "dave's hopper":        'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dave%27s_hopper.jpg/320px-Dave%27s_hopper.jpg',
+  'parachute adams':      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Parachute_Adams.jpg/320px-Parachute_Adams.jpg',
+  'sparkle dun':          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sparkle_Dun.jpg/320px-Sparkle_Dun.jpg',
+  'pheasant tail nymph':  'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pheasant_tail_nymph.jpg/320px-Pheasant_tail_nymph.jpg',
+  'elk hair caddis':      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Elk_Hair_Caddis.jpg/320px-Elk_Hair_Caddis.jpg',
+  "griffith's gnat":      'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Griffiths_Gnat.jpg/320px-Griffiths_Gnat.jpg',
+  'hares ear nymph':      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/GoldRibbedHaresEar.jpg/320px-GoldRibbedHaresEar.jpg',
+  'parachute green drake':'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Green_Drake_fly.jpg/320px-Green_Drake_fly.jpg',
+  'zebra midge':          'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Zebra_midge.jpg/320px-Zebra_midge.jpg',
+  "dave's hopper":        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Dave's_hopper.jpg/320px-Dave's_hopper.jpg",
 };
 
 const PROXY = 'https://corsproxy.io/?';
