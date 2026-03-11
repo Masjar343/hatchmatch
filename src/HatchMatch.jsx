@@ -472,28 +472,37 @@ const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stonef
 
 // Real insect photos (iNaturalist - stable observation photos)
 const INSECT_PHOTOS = {
-  1:  'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // BWO - Baetis
-  2:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1157262/medium.jpg', // PMD - Ephemerella
-  17: 'https://inaturalist-open-data.s3.amazonaws.com/photos/1157262/medium.jpg', // Sulphur - Ephemerella
-  3:  'https://inaturalist-open-data.s3.amazonaws.com/photos/4901932/medium.jpg', // Green Drake - Drunella grandis
-  9:  'https://inaturalist-open-data.s3.amazonaws.com/photos/8772978/medium.jpg', // Trico
-  10: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2893258/medium.jpg', // Hendrickson
-  18: 'https://inaturalist-open-data.s3.amazonaws.com/photos/4901932/medium.jpg', // Green Drake (dup)
-  19: 'https://inaturalist-open-data.s3.amazonaws.com/photos/9244809/medium.jpg', // Brown Drake - Ephemera
-  20: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2893258/medium.jpg', // March Brown
-  21: 'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // Callibaetis (similar to Baetis)
-  4:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1246193/medium.jpg', // Caddisfly
-  16: 'https://inaturalist-open-data.s3.amazonaws.com/photos/7400683/medium.jpg', // October Caddis
-  5:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1864795/medium.jpg', // Salmonfly - Pteronarcys
-  6:  'https://inaturalist-open-data.s3.amazonaws.com/photos/3422243/medium.jpg', // Golden Stone
-  7:  'https://inaturalist-open-data.s3.amazonaws.com/photos/522045/medium.jpg',  // Midge - Chironomid
-  8:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1109258/medium.jpg', // Grasshopper
-  11: 'https://inaturalist-open-data.s3.amazonaws.com/photos/162105/medium.jpg',  // Ant
-  12: 'https://inaturalist-open-data.s3.amazonaws.com/photos/159528/medium.jpg',  // Trout (streamer target)
-  13: 'https://inaturalist-open-data.s3.amazonaws.com/photos/159528/medium.jpg',  // Trout (leech)
-  14: 'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // Attractor
-  15: 'https://inaturalist-open-data.s3.amazonaws.com/photos/6986067/medium.jpg', // Salmon eggs
-  22: 'https://inaturalist-open-data.s3.amazonaws.com/photos/3763482/medium.jpg', // Scud/Gammarus
+  // Mayflies
+  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Baetis_rhodani_crop.jpg/320px-Baetis_rhodani_crop.jpg',         // BWO - Baetis
+  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ephemerella_inermis.jpg/320px-Ephemerella_inermis.jpg',          // PMD - Ephemerella inermis
+  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg',        // Sulphur
+  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',                // Green Drake - Drunella grandis
+  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg',      // Trico
+  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg',       // Hendrickson
+  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Drunella_grandis.jpg/320px-Drunella_grandis.jpg',                // Green Drake (dup)
+  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg',             // Brown Drake
+  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Rhithrogena_germanica.jpg/320px-Rhithrogena_germanica.jpg',     // March Brown
+  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Callibaetis_sp.jpg/320px-Callibaetis_sp.jpg',                   // Callibaetis
+  // Caddisflies
+  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Caddisfly_-_Trichoptera.jpg/320px-Caddisfly_-_Trichoptera.jpg', // Caddisfly
+  16: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dicosmoecus_gilvipes.jpg/320px-Dicosmoecus_gilvipes.jpg',       // October Caddis
+  // Stoneflies
+  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg', // Salmonfly
+  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg',     // Golden Stone
+  // Midges
+  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg',       // Midge
+  // Terrestrials
+  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Melanoplus_differentialis.jpg/320px-Melanoplus_differentialis.jpg', // Grasshopper
+  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ant_head_LE.jpg/320px-Ant_head_LE.jpg',                         // Ant
+  // Streamers / Leeches
+  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Oncorhynchus_mykiss.jpg/320px-Oncorhynchus_mykiss.jpg',         // Rainbow Trout (streamer)
+  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Macrobdella_decora.jpg/320px-Macrobdella_decora.jpg',           // Leech
+  // Attractors
+  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Trout_fishing_fly.jpg/320px-Trout_fishing_fly.jpg',             // Attractor
+  // Eggs
+  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Oncorhynchus_tshawytscha_eggs.jpg/320px-Oncorhynchus_tshawytscha_eggs.jpg', // Salmon eggs
+  // Scud
+  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gammarus_pulex.jpg/320px-Gammarus_pulex.jpg',                   // Scud/Gammarus
 };
 const SEASON_ICONS = { spring:'Sp', summer:'Su', fall:'Fa', winter:'Wi' };
 
@@ -785,7 +794,7 @@ export default function HatchMatch() {
                       background: order===o ? C.sky : 'rgba(255,255,255,0.08)',
                       border: order===o ? '1px solid ' + C.sky : '1px solid rgba(255,255,255,0.12)',
                       color: order===o ? 'white' : 'rgba(255,255,255,0.65)',
-                      padding:'5px 12px', borderRadius:20, fontSize:'0.74rem', cursor:'pointer', whiteSpace:'nowrap',
+                      padding:'7px 15px', borderRadius:20, fontSize:'0.82rem', cursor:'pointer', whiteSpace:'nowrap',
                       fontWeight: order===o ? 600 : 400
                     }}
                   >
