@@ -470,30 +470,30 @@ const C = {
 
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
-// Real insect photos (Wikimedia Commons)
+// Real insect photos (iNaturalist - stable observation photos)
 const INSECT_PHOTOS = {
-  1:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // BWO
-  2:  'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg', // PMD
-  17: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Ephemerella_dorothea.jpg/320px-Ephemerella_dorothea.jpg', // Sulphur
-  3:  'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Drunella_grandis.jpg/320px-Drunella_grandis.jpg', // Green Drake
-  9:  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Tricorythodes_minutus.jpg/320px-Tricorythodes_minutus.jpg', // Trico
-  10: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg', // Hendrickson
-  18: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Drunella_grandis.jpg/320px-Drunella_grandis.jpg', // Green Drake dup
-  19: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ephemera_simulans.jpg/320px-Ephemera_simulans.jpg', // Brown Drake
-  20: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ephemerella_subvaria.jpg/320px-Ephemerella_subvaria.jpg', // March Brown
-  21: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // Callibaetis
-  4:  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Brachycentrus_americanus.jpg/320px-Brachycentrus_americanus.jpg', // Caddis
-  16: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Brachycentrus_americanus.jpg/320px-Brachycentrus_americanus.jpg', // Oct Caddis
-  5:  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Pteronarcys_californica.jpg/320px-Pteronarcys_californica.jpg', // Salmonfly
-  6:  'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Hesperoperla_pacifica.jpg/320px-Hesperoperla_pacifica.jpg', // Golden Stone
-  7:  'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Chironomus_plumosus2.jpg/320px-Chironomus_plumosus2.jpg', // Midge
-  8:  'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grasshopper_on_a_rock.jpg/320px-Grasshopper_on_a_rock.jpg', // Hopper
-  11: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Camponotus_flavomarginatus_ant.jpg/320px-Camponotus_flavomarginatus_ant.jpg', // Ant
-  12: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg/320px-Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg', // Streamer
-  13: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg/320px-Oncorhynchus_mykiss_-_Pacific_Southwest_Research_Station.jpg', // Leech
-  14: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Baetis_rhodani_%28cropped%29.jpg/320px-Baetis_rhodani_%28cropped%29.jpg', // Attractor
-  15: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Salmon_eggs.jpg/320px-Salmon_eggs.jpg', // Eggs
-  22: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Scud_fly_pattern.jpg/320px-Scud_fly_pattern.jpg', // Sow Bug
+  1:  'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // BWO - Baetis
+  2:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1157262/medium.jpg', // PMD - Ephemerella
+  17: 'https://inaturalist-open-data.s3.amazonaws.com/photos/1157262/medium.jpg', // Sulphur - Ephemerella
+  3:  'https://inaturalist-open-data.s3.amazonaws.com/photos/4901932/medium.jpg', // Green Drake - Drunella grandis
+  9:  'https://inaturalist-open-data.s3.amazonaws.com/photos/8772978/medium.jpg', // Trico
+  10: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2893258/medium.jpg', // Hendrickson
+  18: 'https://inaturalist-open-data.s3.amazonaws.com/photos/4901932/medium.jpg', // Green Drake (dup)
+  19: 'https://inaturalist-open-data.s3.amazonaws.com/photos/9244809/medium.jpg', // Brown Drake - Ephemera
+  20: 'https://inaturalist-open-data.s3.amazonaws.com/photos/2893258/medium.jpg', // March Brown
+  21: 'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // Callibaetis (similar to Baetis)
+  4:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1246193/medium.jpg', // Caddisfly
+  16: 'https://inaturalist-open-data.s3.amazonaws.com/photos/7400683/medium.jpg', // October Caddis
+  5:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1864795/medium.jpg', // Salmonfly - Pteronarcys
+  6:  'https://inaturalist-open-data.s3.amazonaws.com/photos/3422243/medium.jpg', // Golden Stone
+  7:  'https://inaturalist-open-data.s3.amazonaws.com/photos/522045/medium.jpg',  // Midge - Chironomid
+  8:  'https://inaturalist-open-data.s3.amazonaws.com/photos/1109258/medium.jpg', // Grasshopper
+  11: 'https://inaturalist-open-data.s3.amazonaws.com/photos/162105/medium.jpg',  // Ant
+  12: 'https://inaturalist-open-data.s3.amazonaws.com/photos/159528/medium.jpg',  // Trout (streamer target)
+  13: 'https://inaturalist-open-data.s3.amazonaws.com/photos/159528/medium.jpg',  // Trout (leech)
+  14: 'https://inaturalist-open-data.s3.amazonaws.com/photos/13926/medium.jpg',   // Attractor
+  15: 'https://inaturalist-open-data.s3.amazonaws.com/photos/6986067/medium.jpg', // Salmon eggs
+  22: 'https://inaturalist-open-data.s3.amazonaws.com/photos/3763482/medium.jpg', // Scud/Gammarus
 };
 const SEASON_ICONS = { spring:'Sp', summer:'Su', fall:'Fa', winter:'Wi' };
 
@@ -875,7 +875,7 @@ export default function HatchMatch() {
           {filtered.length === 0 && <div style={{padding:'20px 4px', color:C.stone, fontSize:'0.82rem'}}>No results.</div>}
           {Object.entries(groups).map(([ord, insects]) => (
             <div key={ord} style={{marginBottom:28}}>
-              <div style={{fontSize:'0.6rem', letterSpacing:'0.14em', textTransform:'uppercase', color:C.stone, fontWeight:700, marginBottom:10, paddingLeft:2}}>{ORDER_LABELS[ord]}</div>
+              <div style={{fontSize:'0.75rem', letterSpacing:'0.1em', textTransform:'uppercase', color:C.forest, fontWeight:800, marginBottom:10, paddingLeft:2, fontFamily:'Georgia,serif'}}>{ORDER_LABELS[ord]}</div>
               <div style={{display:'grid', gridTemplateColumns:'1fr 1fr', gap:10}}>
                 {insects.map(ins => (
                   <div
