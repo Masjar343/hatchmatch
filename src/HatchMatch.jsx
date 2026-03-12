@@ -749,16 +749,23 @@ export default function HatchMatch() {
     const mime = imageUrl.split(';')[0].split(':')[1];
     const prompt = 'You are an expert fly fishing entomologist. Identify this insect photo for a fly fisherman. Return ONLY valid JSON, no markdown:\n{"identified":true,"commonName":"Blue-Winged Olive","latinName":"Baetis spp.","order":"mayfly","confidence":"high","lifeStage":"Dun","stageDescription":"Adult dun on water surface","primaryFly":"Parachute Adams","primaryFlyStyle":"Dry","primaryFlySizes":"16-20","primaryFlyTip":"Fish dead drift","presentation":{"cast":"Reach cast","drift":"Dead drift","depth":"Surface","strike":"Lift firmly"},"rigging":{"setup":"9ft 5X leader","tippet":"5X fluorocarbon","indicator":"None","dropper":"RS2 12in below","weight":"None"},"alternateFlies":[{"name":"Sparkle Dun","style":"Dry","sizes":"16-18"}],"fishingNotes":"Fish rising selectively.","notAnInsect":false,"notAnInsectReason":""}\nIf not identifiable set identified:false notAnInsect:true. Life stage: Nymph/Pupa/Emerger/Dun/Adult/Spinner. Order: mayfly/caddis/stonefly/midge/terrestrial/unknown. Confidence: high/medium/low.';
     try {
+      // Mobile cameras may report image/heic or other non-standard types.
+      // The API only accepts jpeg/png/gif/webp, so remap anything else to jpeg.
+      const safeMime = ['image/jpeg','image/png','image/gif','image/webp'].includes(mime)
+        ? mime : 'image/jpeg';
       const resp = await fetch('https://api.anthropic.com/v1/messages', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', 'anthropic-version': '2023-06-01', 'anthropic-dangerous-direct-browser-access': 'true', 'x-api-key': apiKey.trim() },
-        body: JSON.stringify({ model: 'claude-sonnet-4-5-20251001', max_tokens: 1200, messages: [{ role: 'user', content: [{ type: 'image', source: { type: 'base64', media_type: mime, data: b64 } }, { type: 'text', text: prompt }] }] })
+        body: JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: 1200, messages: [{ role: 'user', content: [{ type: 'image', source: { type: 'base64', media_type: safeMime, data: b64 } }, { type: 'text', text: prompt }] }] })
       });
       clearInterval(stepTimer.current);
       const data = await resp.json();
+      // Surface API-level errors (bad key, rate limit, unsupported image, etc.)
+      if (data.error) throw new Error(data.error.message || 'API error');
+      if (!resp.ok) throw new Error('API returned ' + resp.status);
       const txt = (data.content || []).filter(b => b.type === 'text').map(b => b.text).join('');
       const m = txt.match(/\{[\s\S]*\}/);
-      if (!m) throw new Error('No JSON in response');
+      if (!m) throw new Error('Could not parse response — try a clearer photo');
       setResult(JSON.parse(m[0])); setModalStep('results');
     } catch(e) { clearInterval(stepTimer.current); setError(e.message); setModalStep('error'); }
   }
