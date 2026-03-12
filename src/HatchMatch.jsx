@@ -471,17 +471,17 @@ const C = {
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
 // Wikipedia article titles for each insect — used to fetch real thumbnails at runtime
-// For PMD, Sulphur, and Green Drake: query iNaturalist observations sorted by
-// community votes. Top-voted research-grade observations are always beautiful
-// natural field photos — live insects in streams/vegetation, never lab shots.
-const INAT_OBS_TAXON_IDS = {
-  2:  219275,   // PMD — Ephemerella excrucians
-  17: 219274,   // Sulphur — Ephemerella dorothea
-  3:  218768,   // Green Drake — Drunella grandis
-  18: 218768,   // Green Drake West — same species
+// Hand-verified photos from Jerry Schoen's curated iNaturalist field guides.
+// These are confirmed natural-setting shots (live insects in the field, not on nets
+// or in lab trays). Sourced from inaturalist.org/guides/671 and /guides/412.
+const HARDCODED_PHOTOS = {
+  2:  'https://static.inaturalist.org/photos/817959/medium.jpg',  // PMD female dun — natural setting
+  17: 'https://inaturalist-open-data.s3.amazonaws.com/photos/486487/medium.jpg', // Sulphur male dun
+  3:  'https://static.inaturalist.org/photos/818025/medium.jpg',  // Green Drake dun — natural setting
+  18: 'https://static.inaturalist.org/photos/818025/medium.jpg',  // Green Drake West — same photo
 };
 
-// For other iNaturalist insects, the taxa default_photo is reliable
+// iNaturalist taxa API for other insects — default_photo is reliable for these
 const INAT_TAXA_IDS = {
   1:  482029,   // BWO — Baetis rhodani
   10: 130766,   // Hendrickson — Ephemerella subvaria
@@ -508,24 +508,9 @@ const WIKI_TITLES = {
 };
 
 function useInsectPhotos() {
-  const [photos, setPhotos] = useState({});
+  const [photos, setPhotos] = useState(HARDCODED_PHOTOS);
   useEffect(() => {
-    // Top community-voted research-grade observations = reliably beautiful field photos
-    Object.entries(INAT_OBS_TAXON_IDS).forEach(([id, taxonId]) => {
-      fetch(
-        `https://api.inaturalist.org/v1/observations?taxon_id=${taxonId}` +
-        `&quality_grade=research&order_by=votes&per_page=1&photos=true`
-      )
-        .then(r => r.json())
-        .then(data => {
-          const squareUrl = data?.results?.[0]?.photos?.[0]?.url;
-          const url = squareUrl?.replace('/square.', '/medium.');
-          if (url) setPhotos(prev => ({...prev, [id]: url}));
-        })
-        .catch(() => {});
-    });
-
-    // Other iNaturalist insects — taxa default_photo is fine
+    // iNaturalist taxa API for remaining insects
     Object.entries(INAT_TAXA_IDS).forEach(([id, taxonId]) => {
       fetch(`https://api.inaturalist.org/v1/taxa/${taxonId}`)
         .then(r => r.json())
