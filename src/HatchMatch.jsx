@@ -471,43 +471,62 @@ const C = {
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
 // Wikipedia article titles for each insect — used to fetch real thumbnails at runtime
-// iNaturalist taxon IDs for insects that need better photos than Wikipedia provides.
-// These pull the taxon's "default photo" — always a real field observation, never a
-// lab specimen, net trap, or museum mount.
-const INAT_TAXON_IDS = {
-  1:  482029,   // BWO — Baetis rhodani
-  2:  219275,   // PMD — Ephemerella excrucians (no Wikipedia thumbnail at all)
+// For PMD, Sulphur, and Green Drake: query iNaturalist observations sorted by
+// community votes. Top-voted research-grade observations are always beautiful
+// natural field photos — live insects in streams/vegetation, never lab shots.
+const INAT_OBS_TAXON_IDS = {
+  2:  219275,   // PMD — Ephemerella excrucians
   17: 219274,   // Sulphur — Ephemerella dorothea
   3:  218768,   // Green Drake — Drunella grandis
-  10: 130766,   // Hendrickson — Ephemerella subvaria
   18: 218768,   // Green Drake West — same species
+};
+
+// For other iNaturalist insects, the taxa default_photo is reliable
+const INAT_TAXA_IDS = {
+  1:  482029,   // BWO — Baetis rhodani
+  10: 130766,   // Hendrickson — Ephemerella subvaria
   9:  178746,   // Trico — Tricorythodes genus
   6:  221249,   // Golden Stone — Hesperoperla pacifica
 };
 
-// Wikipedia article titles for insects whose Wikipedia thumbnail is fine.
+// Wikipedia article titles for insects whose Wikipedia thumbnail is good
 const WIKI_TITLES = {
-  19: 'Ephemera_simulans',       // Brown Drake
-  20: 'Rhithrogena_germanica',   // March Brown
-  21: 'Callibaetis',             // Callibaetis
-  4:  'Hydropsyche',             // Caddis
-  16: 'Dicosmoecus',             // Orange Caddis
-  5:  'Pteronarcys_californica', // Salmonfly
-  7:  'Chironomus_plumosus',     // Midge (specific species, better photo than family page)
-  8:  'Differential_grasshopper',// Grasshopper (outdoor shot on ironweed)
-  11: 'Formica_rufa',            // Ant (natural forest photo)
-  12: 'Rainbow_trout',           // Streamer
-  13: 'Macrobdella_decora',      // Leech
-  14: 'Fly_fishing',             // Attractor
-  15: 'Chinook_salmon',          // Eggs
-  22: 'Gammarus_pulex',          // Scud
+  19: 'Ephemera_simulans',        // Brown Drake
+  20: 'Rhithrogena_germanica',    // March Brown
+  21: 'Callibaetis',              // Callibaetis
+  4:  'Hydropsyche',              // Caddis
+  16: 'Dicosmoecus',              // Orange Caddis
+  5:  'Pteronarcys_californica',  // Salmonfly
+  7:  'Chironomus_plumosus',      // Midge
+  8:  'Differential_grasshopper', // Grasshopper
+  11: 'Formica_rufa',             // Ant
+  12: 'Rainbow_trout',            // Streamer
+  13: 'Macrobdella_decora',       // Leech
+  14: 'Fly_fishing',              // Attractor
+  15: 'Chinook_salmon',           // Eggs
+  22: 'Gammarus_pulex',           // Scud
 };
 
 function useInsectPhotos() {
   const [photos, setPhotos] = useState({});
   useEffect(() => {
-    // Fetch from iNaturalist for insects that need field photos
-    Object.entries(INAT_TAXON_IDS).forEach(([id, taxonId]) => {
+    // Top community-voted research-grade observations = reliably beautiful field photos
+    Object.entries(INAT_OBS_TAXON_IDS).forEach(([id, taxonId]) => {
+      fetch(
+        `https://api.inaturalist.org/v1/observations?taxon_id=${taxonId}` +
+        `&quality_grade=research&order_by=votes&per_page=1&photos=true`
+      )
+        .then(r => r.json())
+        .then(data => {
+          const squareUrl = data?.results?.[0]?.photos?.[0]?.url;
+          const url = squareUrl?.replace('/square.', '/medium.');
+          if (url) setPhotos(prev => ({...prev, [id]: url}));
+        })
+        .catch(() => {});
+    });
+
+    // Other iNaturalist insects — taxa default_photo is fine
+    Object.entries(INAT_TAXA_IDS).forEach(([id, taxonId]) => {
       fetch(`https://api.inaturalist.org/v1/taxa/${taxonId}`)
         .then(r => r.json())
         .then(data => {
@@ -517,7 +536,7 @@ function useInsectPhotos() {
         .catch(() => {});
     });
 
-    // Fetch from Wikipedia for the rest
+    // Wikipedia for insects with good existing thumbnails
     Object.entries(WIKI_TITLES).forEach(([id, title]) => {
       fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`)
         .then(r => r.json())
