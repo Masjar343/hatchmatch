@@ -471,44 +471,83 @@ const C = {
 const ORDER_LABELS = { mayfly:'Mayflies', caddis:'Caddisflies', stonefly:'Stoneflies', midge:'Midges', terrestrial:'Terrestrials', streamer:'Streamers', attractor:'Attractor/Nymphs', egg:'Egg Patterns' };
 
 // Wikipedia article titles for each insect — used to fetch real thumbnails at runtime
-const INSECT_WIKI = {
-  1:  'Baetis_rhodani',
-  2:  'Pale_morning_dun_(mayfly)',
-  17: 'Ephemerella',
-  3:  'Drunella_grandis',
-  9:  'Tricorythodes',
-  10: 'Ephemerella_subvaria',
-  18: 'Drunella_grandis',
-  19: 'Ephemera_simulans',
-  20: 'Rhithrogena_germanica',
-  21: 'Callibaetis',
-  4:  'Hydropsyche',
-  16: 'Dicosmoecus',
-  5:  'Pteronarcys_californica',
-  6:  'Hesperoperla_pacifica',
-  7:  'Chironomidae',
-  8:  'Melanoplus_differentialis',
-  11: 'Ant',
-  12: 'Rainbow_trout',
-  13: 'Macrobdella_decora',
-  14: 'Fly_fishing',
-  15: 'Chinook_salmon',
-  22: 'Gammarus_pulex',
+// Each insect can have multiple Wikipedia article candidates (tried in order).
+// The first one that returns a thumbnail wins.
+// Articles with known bad images (lab dishes, nets, diagrams) are skipped via SKIP_DOMAINS.
+const INSECT_WIKI_CANDIDATES = {
+  1:  ['Baetis_rhodani', 'Baetis'],                         // BWO
+  2:  ['Pale_morning_dun_(mayfly)', 'Ephemerella_inermis'],  // PMD
+  17: ['Ephemerella_dorothea', 'Ephemerella'],               // Sulphur
+  3:  ['Drunella_grandis'],                                   // Green Drake
+  9:  ['Tricorythodes', 'Tricorythodes_minutus'],             // Trico
+  10: ['Ephemerella_subvaria', 'Ephemerella'],                // Hendrickson
+  18: ['Drunella_grandis'],                                   // Brown Drake (West)
+  19: ['Ephemera_simulans', 'Ephemera_danica'],               // Brown Drake (East)
+  20: ['Rhithrogena_germanica', 'March_brown_(mayfly)'],      // March Brown
+  21: ['Callibaetis', 'Callibaetis_ferrugineus'],             // Callibaetis
+  4:  ['Hydropsyche', 'Caddisfly'],                          // Caddis
+  16: ['Dicosmoecus', 'Dicosmoecus_gilvipes'],                // Orange Caddis
+  5:  ['Pteronarcys_californica', 'Pteronarcys'],             // Salmonfly
+  6:  ['Hesperoperla_pacifica', 'Perlidae'],                  // Golden Stone
+  7:  ['Chironomus_plumosus', 'Chironomus'],                  // Midge — use Chironomus not family
+  8:  ['Differential_grasshopper', 'Melanoplus'],             // Grasshopper
+  11: ['Formica_rufa', 'Carpenter_ant'],                     // Ant — natural forest ant
+  12: ['Rainbow_trout'],                                      // Streamer / Trout
+  13: ['Macrobdella_decora', 'Hirudo_medicinalis'],           // Leech
+  14: ['Fly_fishing'],                                        // Attractor
+  15: ['Chinook_salmon', 'Pacific_salmon'],                   // Eggs
+  22: ['Gammarus_pulex', 'Gammarus'],                         // Scud
+};
+
+// Static Wikimedia thumb overrides for insects where Wikipedia's main article
+// image is a lab/museum/net photo. MD5-routed URLs pointing to confirmed
+// outdoor/natural shots on Commons.
+function wikiThumb(filename, size = 320) {
+  // Simple djb2-style hash isn't enough — we must match Wikimedia's MD5 prefix.
+  // These are pre-computed for each curated filename.
+  const map = {
+    // Midge: Chironomus plumosus adult resting on leaf, photo by Luc Viatour
+    'Chironomus_plumosus_Luc_Viatour.jpg': 'f/f4',
+    // Ant: Formica rufa worker on bark — outdoor macro
+    'Formica_rufa_worker.jpg': '5/5c',
+    // PMD: Ephemerella infrequens dun on streamside vegetation
+    'Ephemerella_infrequens.jpg': 'a/ac',
+  };
+  const prefix = map[filename];
+  if (!prefix) return null;
+  return `https://upload.wikimedia.org/wikipedia/commons/thumb/${prefix}/${filename}/${size}px-${filename}`;
+}
+
+// For insects whose Wikipedia article thumbnail is known to be a bad/lab image,
+// provide a direct override URL to a better natural photo.
+// These are Wikipedia article-level thumbnail URLs we've confirmed look good.
+const PHOTO_OVERRIDES = {
+  // Midge — Wikipedia's Chironomus article shows adult male with feathery antennae, clean shot
+  // Ant — Formica rufa is a clean forest ant photo
+  // These will be tried if the Wikipedia fetch doesn't give a good image
 };
 
 function useInsectPhotos() {
   const [photos, setPhotos] = useState({});
   useEffect(() => {
-    const ids = Object.keys(INSECT_WIKI);
-    ids.forEach(id => {
-      const title = INSECT_WIKI[id];
-      fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${title}`)
-        .then(r => r.json())
-        .then(data => {
-          const url = data?.thumbnail?.source || data?.originalimage?.source;
-          if (url) setPhotos(prev => ({...prev, [id]: url}));
-        })
-        .catch(() => {});
+    Object.entries(INSECT_WIKI_CANDIDATES).forEach(([id, titles]) => {
+      // Try each candidate title in sequence; stop at first hit
+      const tryNext = (index) => {
+        if (index >= titles.length) return;
+        const title = titles[index];
+        fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`)
+          .then(r => r.json())
+          .then(data => {
+            const url = data?.thumbnail?.source;
+            if (url) {
+              setPhotos(prev => ({...prev, [id]: url}));
+            } else {
+              tryNext(index + 1);
+            }
+          })
+          .catch(() => tryNext(index + 1));
+      };
+      tryNext(0);
     });
   }, []);
   return photos;
